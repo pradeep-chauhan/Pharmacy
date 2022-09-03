@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=PT+Sans&display=swap');
+/*
+body{
+  font-family: 'Inter', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+}
+*/
+/*common*/
+.button{
+  padding: 2.5%;
+  margin: 2.5%;
+  border-radius: 10px;
+  line-height:15.6px;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:400;
+  font-style:normal;
+  font-variant:normal;
+  font-family: 'PT Sans', sans-serif;
+}
+
+body{
+  background-color: #FEF4EE !important;
+}
+.section1{
+  margin-bottom: 7%;
+}
+/*navbar*/
+a{
+  text-decoration: none;
+  color: black;
+}
+.nav-link{
+  text-decoration: none;
+  color: black !important;
+}
+
+/*homepage*/
+.homepageheading{
+  font-family: 'Inter', sans-serif;
+  line-height:45.6px;
+  line-break: auto;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:10px;
+  font-weight:800;
+  font-size: 60px;
+  font-variant:normal;
+}
+
+.buttonhomepage{
+  background-color: #F96438 !important;
+  color: white;
+}
+.backgroundhomepage{
+  background-color: #4C436B;
+  max-height: fit-content;
+  min-height:550px;
+
+}
+.imagehomepage{
+  background-image:url('images/team.jpg');
+  border-radius: 150px  !important;
+  background-position:center center;
+  background-size:250px 300px;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+}
+
+.paragraphhomepage{
+  font-family: 'PT Sans', sans-serif;
+  line-break: auto;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:100;
+  color: white;
+  vertical-align:baseline;
+  font-size: large;
+  font-style:normal;
+}
+.imagehomepage2{
+align-items: center !important;
+}
+.imagehomepage3{
+/*
+  position: relative;
+bottom: 53%;
+height: fit-content;
+width: fit-content;
+*/
+position: absolute;
+  left: 30%;
+  top: 260px;
+}
+
+.whyus{
+  background-color: #4C436B;
+}
+.cardwhyus{
+  position: relative;
+  bottom: 18%; 
+}
+.imagewhyus{
+  height: auto;
+  width: 90%;
+}
+
+
+/**/
+
+.buttoninfo{
+  border-radius: 9px;
+  padding: 2.5%;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:400;
+  font-style:normal;
+  background-color: #4C436B;
+  color: white;
+  font-variant:normal;
+  font-family: 'PT Sans', sans-serif;
+}
+.icon-info{
+ 
+  background-color: #4C436B;
+  padding: 5%;
+  color: white;
+}
+
+.card-text{
+  font-family: 'PT Sans', sans-serif;
+  line-break: auto;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:400;
+  font-size: 16px;
+}
+.t3{
+ position: relative;
+ margin-top: 6%;
+ margin-left: -22px;
+}
+.t2{
+  position: relative;
+  margin-bottom: 9%;
+  margin-left: 0px;
+}
+
+.t1{
+  position: relative;
+    margin-top: 38px;
+}
+
+.info{
+  margin-top: 5%;
+}
+/*
+
+  margin: 2.5%;
+  border-radius: 10px;
+  
+ 
+
+*/
+
+
+
+.t5{
+  grid-row-gap: 10px;
+  grid-column-gap: 15px;
+}
+
+
+/*offer*/
+.services-2 .icon {
+  line-height: 1;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.services-2 {
+  margin-bottom: 30px;
+}
+.pl-3, .px-3 {
+  padding-left: 1rem!important;
+}
+.offericon{
+    background: #fd5f00;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+.offericons{
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  background-color: #f75023;
+  border-radius: 50%;
+}
+/*courses*/
+.text-courses{
+  text-align: center !important;
+ }
+ .text-courses h2{
+  font-size: 3rem !important;
+ }
+ .nav-pills-bg-soft {
+  background-color: rgba(6, 106, 201, 0.1);
+  padding: 0.625rem 0;
+  border-radius: 0.625rem;
+}
+.card-para{
+  font-style:normal;
+  font-variant:normal;
+  font-family: 'PT Sans', sans-serif;
+  color: gray;
+}
+.courses-card{
+  margin-bottom: 1rem;
+}
+
+/*testimonial*/
+.tm-people{
+  margin-top: 3%;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  max-width: none;
+  align-items: center !important;
+  grid-gap: 50px;
+  display: block;
+}
+
+/*contact us*/
+
+.image-contactus{
+  height: auto;
+  width: 100%;
+}
+
+/*footer*/
+
+.btn-purple{
+  background-color: purple !important;
+}
+.btn-white{
+  color: white;
+  font-size: small;
+}
+.footer-para{
+  color: rgb(150, 144, 144);
+}
+
+
+@media (max-width:985px){
+  .imagehomepage3{
+      display:none;
+  }
+  .t1{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t2{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t3{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t4{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+}
+@media (max-width:770px){
+  .roundtext{
+      display:none;
+  }
+}
