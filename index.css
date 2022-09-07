@@ -20,12 +20,47 @@ body{
   font-variant:normal;
   font-family: 'PT Sans', sans-serif;
 }
+.paragraph{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-variant:normal;
+  vertical-align:baseline;
+  font-size: 20px;
+  color: gray;
+}
+.subheading{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:500;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 30px;
+}
+.subparagraph{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:300;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 16px;
+  color: gray;
+}
 
 body{
   background-color: #FEF4EE !important;
 }
 .section1{
   margin-bottom: 7%;
+}
+.heading{
+  font-family: 'Inter', sans-serif;
+  line-height:15.6px;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:700;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 46px;
 }
 /*navbar*/
 a{
@@ -36,7 +71,9 @@ a{
   text-decoration: none;
   color: black !important;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color: #FEF4EE;
+}
 /*homepage*/
 .homepageheading{
   font-family: 'Inter', sans-serif;
@@ -54,7 +91,7 @@ a{
   background-color: #F96438 !important;
   color: white;
 }
-.backgroundhomepage{
+.home-background{
   background-color: #4C436B;
   max-height: fit-content;
   min-height:550px;
@@ -85,17 +122,28 @@ a{
 align-items: center !important;
 }
 .imagehomepage3{
-/*
-  position: relative;
-bottom: 53%;
-height: fit-content;
-width: fit-content;
-*/
 position: absolute;
   left: 30%;
   top: 260px;
 }
-
+.roundtext{
+  width:100; 
+  height:100;
+  color: white;
+}
+svg {
+  fill: currentColor;
+  height: auto;
+  max-width: 66vmin;
+  transform-origin: center;
+  width: 66%;
+  color:white;
+}
+.round-text{
+  font-size:17.5px;
+  color: white !important;
+}
+/*why us*/
 .whyus{
   background-color: #4C436B;
 }
@@ -104,12 +152,13 @@ position: absolute;
   bottom: 18%; 
 }
 .imagewhyus{
-  height: auto;
+  height: 200px;
   width: 90%;
 }
-
-
-/**/
+.whyusheading{
+  color:#4C436B;
+}
+/*info*/
 
 .buttoninfo{
   border-radius: 9px;
@@ -130,13 +179,33 @@ position: absolute;
   padding: 5%;
   color: white;
 }
-
+.backgroundcircle::before{
+  content: '';
+  display: inline-block;
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+  background-color: #FFE7D9 !important;
+  /*
+  box-shadow: 0 0 0 100vmax orange;
+  clip-path: inset(0 -100vmax) !important;
+  -webkit-clip-path: inset(0 -100vmax) !important;
+  clip-path: circle(350px at right);
+*/
+}
+.backgroundcircle{
+ 
+  background-color: #FFE7D9 !important;
+  border-top-left-radius: 250px;
+  border-bottom-left-radius: 250px;
+  
+}
 .card-text{
   font-family: 'PT Sans', sans-serif;
   line-break: auto;
   letter-spacing:normal;
   word-spacing:0px;
-  font-weight:400;
+  font-weight:300;
+  color: gray;
   font-size: 16px;
 }
 .t3{
@@ -152,35 +221,29 @@ position: absolute;
 
 .t1{
   position: relative;
-    margin-top: 38px;
+    margin-top: 47px;
 }
 
 .info{
   margin-top: 5%;
 }
-/*
-
-  margin: 2.5%;
-  border-radius: 10px;
-  
- 
-
-*/
-
-
 
 .t5{
   grid-row-gap: 10px;
   grid-column-gap: 15px;
+  border-radius: 5.5%;
+  border: 1px solid transparent;
 }
-
+.t6{
+  padding: 1.5%;
+}
 
 /*offer*/
 .services-2 .icon {
   line-height: 1;
   position: relative;
   width: 80px;
-  height: 80px;
+  height: 70px;
 }
 
 .services-2 {
@@ -211,7 +274,7 @@ position: absolute;
   font-size: 3rem !important;
  }
  .nav-pills-bg-soft {
-  background-color: rgba(6, 106, 201, 0.1);
+  background-color: #4C436B;
   padding: 0.625rem 0;
   border-radius: 0.625rem;
 }
@@ -224,7 +287,12 @@ position: absolute;
 .courses-card{
   margin-bottom: 1rem;
 }
-
+.button-list{
+  color: white !important;
+}
+.button-list:focus{
+  color: black !important;
+}
 /*testimonial*/
 .tm-people{
   margin-top: 3%;
@@ -260,10 +328,52 @@ position: absolute;
   color: rgb(150, 144, 144);
 }
 
+/*svg*/
+.homepagesvg1{
+  position: absolute;
+  left: 20%;
+  transform: rotate(45deg);
+  height: 80px !important;
+}
+.homepagesvg2{
+  position: relative;
+  left: 54%;
+  top: 93%;
+  transform: rotate(-35deg);
+}
+.homepagesvg3{
+  position: relative;
+  transform: rotate(235deg);
+  right: 36px;
+  top: 14px;
+}
+.homepagesvg4{
+  position: relative;
+  left: 30%;
+  top: 15%;
+  transform: rotate(35deg);
+}
+.homepagesvg5{
+  position: absolute;
+  left: 30%;
+  transform: rotate(45deg);
+  height: 80px !important;
+}
 
-@media (max-width:985px){
+/*gallery*/
+.galleryimages{
+  grid-gap: 25px 25px;
+}
+
+.card-img-top{
+  aspect-ratio: 1 / .8;
+}
+@media (max-width:991px){
   .imagehomepage3{
       display:none;
+  }
+  .homepagesvg1{
+    display:none;
   }
   .t1{
     position: relative;
@@ -303,3 +413,69 @@ position: absolute;
       display:none;
   }
 }
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #42B32F;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 7.5%;
+    left: 46.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #42B32F;
+    margin-bottom: 30px;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #42B32F;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #42B32F;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+*/
