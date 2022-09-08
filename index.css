@@ -140,7 +140,7 @@ svg {
   color:white;
 }
 .round-text{
-  font-size:17.5px;
+  font-size:17.35px;
   color: white !important;
 }
 /*why us*/
@@ -210,7 +210,7 @@ svg {
 }
 .t3{
  position: relative;
- margin-top: 6%;
+ margin-top: 4%;
  margin-left: -22px;
 }
 .t2{
@@ -221,7 +221,7 @@ svg {
 
 .t1{
   position: relative;
-    margin-top: 47px;
+    margin-top: 58px;
 }
 
 .info{
@@ -293,6 +293,17 @@ svg {
 .button-list:focus{
   color: black !important;
 }
+.card-text-link{
+  font-family: 'PT Sans', sans-serif;
+  line-break: auto;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:300;
+  color: #4C436B;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
 /*testimonial*/
 .tm-people{
   margin-top: 3%;
@@ -326,8 +337,11 @@ svg {
 }
 .footer-para{
   color: rgb(150, 144, 144);
+  margin-bottom: 10px;
 }
-
+.course-gap{
+  grid-row-gap: 0.25rem;
+}
 /*svg*/
 .homepagesvg1{
   position: absolute;
@@ -368,6 +382,22 @@ svg {
 .card-img-top{
   aspect-ratio: 1 / .8;
 }
+
+.testimonial-card{
+  padding: 10px;
+}
+
+.website-logo{
+  background-color: #4C436B;
+}
+
+
+.hr-border{
+  border: 1px solid #D3D3D3;
+}
+
+
+
 @media (max-width:991px){
   .imagehomepage3{
       display:none;
@@ -414,68 +444,3 @@ svg {
   }
 }
 
-
-
-
-
-
-
-
-
-
-/*
-
-
-.gallery-title
-{
-    font-size: 36px;
-    color: #42B32F;
-    text-align: center;
-    font-weight: 500;
-    margin-bottom: 70px;
-}
-.gallery-title:after {
-    content: "";
-    position: absolute;
-    width: 7.5%;
-    left: 46.5%;
-    height: 45px;
-    border-bottom: 1px solid #5e5e5e;
-}
-.filter-button
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #42B32F;
-    margin-bottom: 30px;
-
-}
-.filter-button:hover
-{
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
-    text-align: center;
-    color: #ffffff;
-    background-color: #42B32F;
-
-}
-.btn-default:active .filter-button:active
-{
-    background-color: #42B32F;
-    color: white;
-}
-
-.port-image
-{
-    width: 100%;
-}
-
-.gallery_product
-{
-    margin-bottom: 30px;
-}
-
-*/
