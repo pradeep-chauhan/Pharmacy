@@ -1,0 +1,36 @@
+.text-courses{
+  text-align: center !important;
+ }
+ .text-courses h2{
+  font-size: 3rem !important;
+ }
+ .nav-pills-bg-soft {
+  background-color: #4C436B;
+  padding: 0.625rem 0;
+  border-radius: 0.625rem;
+}
+.card-para{
+  font-style:normal;
+  font-variant:normal;
+  font-family: 'PT Sans', sans-serif;
+  color: gray;
+}
+.courses-card{
+  margin-bottom: 1rem;
+}
+.button-list{
+  color: white !important;
+}
+.button-list:focus{
+  color: black !important;
+}
+.card-text-link{
+  font-family: 'PT Sans', sans-serif;
+  line-break: auto;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:300;
+  color: #4C436B;
+  font-size: 14px;
+  text-decoration: underline;
+}

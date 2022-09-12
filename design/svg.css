@@ -1,0 +1,32 @@
+.homepagesvg2{
+  position: absolute !important;
+  left: 20% !important;
+  transform: rotate(45deg);
+}
+
+
+
+.homepagesvg1{
+  position: relative;
+  left: 54%;
+  top: 93%;
+  transform: rotate(-35deg);
+}
+.homepagesvg3{
+  position: relative;
+  transform: rotate(235deg);
+  right: 36px;
+  top: 14px;
+}
+.homepagesvg4{
+  position: relative;
+  left: 30%;
+  top: 15%;
+  transform: rotate(35deg);
+}
+.homepagesvg5{
+  position: absolute;
+  left: 30%;
+  transform: rotate(45deg);
+  height: 80px !important;
+}

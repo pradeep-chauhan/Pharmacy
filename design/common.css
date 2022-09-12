@@ -1,0 +1,51 @@
+.button{
+  padding: 2.5%;
+  margin: 2.5%;
+  border-radius: 10px;
+  line-height:15.6px;
+  vertical-align:baseline;
+  letter-spacing:normal;
+  word-spacing:0px;
+  font-weight:400;
+  font-style:normal;
+  font-variant:normal;
+  font-family: 'PT Sans', sans-serif;
+}
+.paragraph{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-variant:normal;
+  vertical-align:baseline;
+  font-size: 20px;
+  color: gray;
+}
+.subheading{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:500;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 30px;
+}
+.subparagraph{
+  font-family: 'PT Sans', sans-serif;
+  font-weight:300;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 16px;
+  color: gray;
+}
+
+body{
+  background-color: #FEF4EE !important;
+
+}
+.section1{
+  margin-bottom: 7%;
+}
+
+
+
+.hr-border{
+  border: 1px solid #D3D3D3;
+}

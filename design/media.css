@@ -1,0 +1,47 @@
+
+@media (max-width:991px){
+  .imagehomepage3{
+      display:none;
+  }
+  .homepagesvg1{
+    display:none;
+  }
+  .t1{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t2{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t3{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+  .t4{
+    position: relative;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-right: 0%;
+
+  }
+}
+@media (max-width:770px){
+  .roundtext{
+      display:none;
+  }
+}
+
