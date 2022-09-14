@@ -49,35 +49,3 @@ function Footer() {
 }
 
 export default Footer
-
-
-/*
-            <div class="col-lg-8 col-xl-8 col-md-8 col-sm-12 col-xs-12">
-              <div class="row">
-                <div class="col">
-                  <h5 class="mb-4">Home</h5>
-                  <p class="footer-para">Faq</p>
-                  <p class="footer-para">Faq</p>
-                  <p class="footer-para">Faq</p>
-                </div>
-                <div class="col">
-                  <h5 class="mb-4">Course</h5>
-                  <p class="footer-para">Course</p>
-                  <p class="footer-para">Course</p>
-                  <p class="footer-para">Course</p>
-                </div>
-                <div class="col">
-                  <h5 class="mb-4">Gallery</h5>
-                  <p class="footer-para">Gallery</p>
-                  <p class="footer-para">Gallery</p>
-                  <p class="footer-para">Gallery</p>
-                </div>
-                <div class="col">
-                  <h5 class="mb-4">Contact</h5>
-                  <p class="footer-para">Contact</p>
-                  <p class="footer-para">Contact</p>
-                  <p class="footer-para">Contact </p>
-                </div>
-              </div>
-            </div>
-            */

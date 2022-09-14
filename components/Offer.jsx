@@ -1,3 +1,4 @@
+
 import React from 'react'
 import {ShieldFillCheck , Clipboard2CheckFill, People , Laptop, Dribbble, Gear} from 'react-bootstrap-icons'
 
@@ -94,8 +95,8 @@ export default Offer
 
 /*
 import React from 'react'
+import Icon from 'react'
 import Image from 'next/image'
-import { Icon } from 'react-bootstrap-icons'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 
 const data = [
