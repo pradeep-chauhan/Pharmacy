@@ -16,6 +16,7 @@ import '../design/testimonial.css'
 import '../design/contactUs.css'
 import '../design/footer.css'
 import '../design/mediaQuery.css'
+import '../design/floatingIcon.css'
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     require('bootstrap/dist/js/bootstrap.bundle.min.js');

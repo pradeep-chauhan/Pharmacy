@@ -1,5 +1,20 @@
-
 .image-contactus{
   height: auto;
   width: 100%;
+}
+.contactIcon{
+  margin-right: 1.5%;
+}
+.contact-us-paragraph{
+  font-family: 'PT Sans', sans-serif;
+  color: gray;
+}
+.contact-us-paragraph a{
+  font-family: 'PT Sans', sans-serif;
+  color: gray;
+}
+
+.contact-us-paragraph a:hover{
+  color: #3817af;
+  text-decoration: underline;
 }

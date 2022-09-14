@@ -14,7 +14,7 @@
 .icon-info{
  
   background-color: #4C436B;
-  padding: 5%;
+  padding: 3.1%;
   color: white;
   font-size: 48px;
 }
@@ -47,18 +47,18 @@
   color: gray;
   font-size: 16px;
 }
-.t3{
+.card3{
  position: relative;
  margin-top: 4%;
  margin-left: -22px;
 }
-.t2{
+.card2{
   position: relative;
   margin-bottom: 9%;
   margin-left: 0px;
 }
 
-.t1{
+.card1{
   position: relative;
     margin-top: 58px;
 }
@@ -67,12 +67,12 @@
   margin-top: 5%;
 }
 
-.t5{
+.card5{
   grid-row-gap: 10px;
   grid-column-gap: 15px;
   border-radius: 5.5%;
   border: 1px solid transparent;
 }
-.t6{
+.card6{
   padding: 1.5%;
 }

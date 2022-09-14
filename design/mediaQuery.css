@@ -1,15 +1,15 @@
 
 @media (max-width:991px){
-  .imagehomepage3{
+  .image-homepage3{
       display:none;
   }
-  .homepagesvg1{
+  .homepage-svg1{
     display:none;
   }
-  .homepagesvg2{
+  .homepage-svg2{
     display:none;
   }
-  .t1{
+  .card1{
     position: relative;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -17,7 +17,7 @@
     margin-right: 0%;
 
   }
-  .t2{
+  .card2{
     position: relative;
     margin-top: 0%;
     margin-bottom: 0%;
@@ -25,7 +25,7 @@
     margin-right: 0%;
 
   }
-  .t3{
+  .card3{
     position: relative;
     margin-top: 0%;
     margin-bottom: 0%;

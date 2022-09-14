@@ -1,12 +1,9 @@
-.homepagesvg2{
+.homepage-svg2{
   position: absolute !important;
   left: 20% !important;
   transform: rotate(45deg);
 }
-
-
-
-.homepagesvg1{
+.homepage-svg1{
   position: relative;
   left: 54%;
   top: 93%;

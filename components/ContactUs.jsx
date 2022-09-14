@@ -9,6 +9,7 @@ function ContactUs() {
       <div className="row">
         <div className="col-md-6 ">
           <Image src={Image1} className='image-contactus' />
+          
         </div>
         <div className="col-md-6">
           <h2 className="heading-text">Let's talk</h2>
@@ -36,6 +37,7 @@ function ContactUs() {
           </form>
         </div>
       </div>
+     
     </div>
   </section>
     </>

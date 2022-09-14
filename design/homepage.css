@@ -7,7 +7,7 @@ a{
   color: black !important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-  background-color: #FEF4EE;
+  background-color: #fd5f00;
 }
 /*homepage*/
 .homepageheading{
@@ -21,8 +21,7 @@ a{
   font-size: 60px;
   font-variant:normal;
 }
-
-.buttonhomepage{
+.button-homepage{
   background-color: #F96438 !important;
   color: white;
 }
@@ -30,10 +29,8 @@ a{
   background-color: #4C436B;
   max-height: fit-content;
   min-height:550px;
-
 }
-.imagehomepage{
-  
+.image-homepage{
   background-image:url('../images/team.jpg');
   border-radius: 150px  !important;
   background-position:center center;
@@ -42,7 +39,6 @@ a{
   width: 50%;
   height: 100%;
 }
-
 .paragraphhomepage{
   font-family: 'PT Sans', sans-serif;
   line-break: auto;
@@ -54,10 +50,10 @@ a{
   font-size: large;
   font-style:normal;
 }
-.imagehomepage2{
+.image-homepage2{
 align-items: center !important;
 }
-.imagehomepage3{
+.image-homepage3{
   position: absolute !important;
   left: 30% ;
   top: 260px ;

@@ -1,14 +1,14 @@
 .whyus{
   background-color: #4C436B;
 }
-.cardwhyus{
+.card-whyus{
   position: relative;
   bottom: 18%; 
 }
-.imagewhyus{
+.image-whyus{
   height: 200px;
   width: 90%;
 }
-.whyusheading{
+.whyus-heading{
   color:#4C436B;
 }

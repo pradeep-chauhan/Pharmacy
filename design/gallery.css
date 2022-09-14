@@ -1,7 +1,6 @@
-.galleryimages{
+.gallery-images{
   grid-gap: 25px 25px;
 }
-
 .card-img-top{
   aspect-ratio: 1 / .8 !important;
 }
