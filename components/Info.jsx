@@ -15,7 +15,7 @@ function Info() {
                 <Image src={Svg1} className="homepagesvg3" />
                 <h1>Reason to choose Gurukul Pharmacy</h1>
 
-                <p className="paragraph">Along with lessons, answers, study resources, grad assignments, feedback and one-to-one
+                <p className="paragraph">Along with lessons, answers, study resources, grade assignments, feedback and one-to-one
                   attention, The
                   experienced tutors at Learning Space also extend their support in writing.</p>
 

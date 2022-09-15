@@ -87,7 +87,7 @@ function Homepage() {
                     <div>
                       <p className="mt-3 paragraphhomepage">This university of Gurukul Pharmacy is leading with mordern university
                         with a
-                        tradition of providing academic excellence dating back nearly 190 years</p>
+                        tradition of providing academic excellence dating back nearly 10 years</p>
                     </div>
                     <div className="mt-3">
                       <button type="button" className="btn button btn-light p-3">Play Video </button>

@@ -64,7 +64,7 @@ const courses = [
         "image": Image8,
         category: "superSpeciality",
         "heading": "Doctorate of Medicine [DM] (Cardiology)",
-        "body": ">Cardiology is a branch of medicine that deals with disorders of the heart ... "
+        "body": "Cardiology is a branch of medicine that deals with disorders of the heart ... "
     },
 ]
 
