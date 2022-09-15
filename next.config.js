@@ -21,18 +21,3 @@ const nextConfig = {
 };
 
 module.exports = nextConfig
-
-
-
-/*
-module.exports = {
-  experimental: {
-      images: {
-          allowFutureImage: true
-      }
-  },
-  // Rest of the config
-  reactStrictMode: true,
-  swcMinify: true,
-}
-*/

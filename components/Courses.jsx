@@ -9,7 +9,7 @@ import Image6 from '../images/course6.jpeg'
 import Image7 from '../images/course7.jpg'
 import Image8 from '../images/course8.jpg'
 
-const Categories = [
+const courses = [
     {
         "id": "1",
         "image": Image1,
@@ -68,12 +68,10 @@ const Categories = [
     },
 ]
 
-
 const Category = () => {
-
-    const[data, setData] = useState(Categories);
+    const[data, setData] = useState(courses);
     const filterResult = (catItem) => {
-        const result = Categories.filter((curDate) => {
+        const result = courses.filter((curDate) => {
             return curDate.category === catItem;
         });
         setData(result);
@@ -81,63 +79,63 @@ const Category = () => {
 
   return (
     <>
-      <section class="courses section1">
-        <div class="container">
-          <div class="row">
-            <div class="col text-courses mx-auto text-center">
-              <h2 class="mb-5 text-center heading"> Most Popular
+      <section className="courses section1">
+        <div className="container">
+          <div className="row">
+            <div className="col text-courses mx-auto text-center">
+              <h2 className="mb-5 text-center heading"> Most Popular
                 Courses</h2>
-              <p class="paragraph mb-4">Choose from hundreds of courses from specialist organizations</p>
+              <p className="paragraph mb-4">Choose from hundreds of courses from specialist organizations</p>
             </div>
           </div>
-          <ul class="nav nav-pills nav-pills-bg-soft justify-content-sm-center mb-4 px-3" id="course-pills-tab"
+          <ul className="nav nav-pills nav-pills-bg-soft justify-content-sm-center mb-4 px-3" id="course-pills-tab"
             role="tablist">
 
 
-            <li class="nav-item me-2 me-sm-5 list" data-filter="all">
-              <button class="nav-link mb-2 mb-md-0 active button-list" id="course-pills-tab-1" data-bs-toggle="pill"
+            <li className="nav-item me-2 me-sm-5 list" data-filter="all">
+              <button className="nav-link mb-2 mb-md-0 active button-list" id="course-pills-tab-1" data-bs-toggle="pill"
                 data-bs-target="#course-pills-tabs-1" type="button" role="tab" aria-controls="course-pills-tabs-1"
-                aria-selected="false" onClick={() => setData(Categories)}>All</button>
+                aria-selected="false" onClick={() => setData(courses)}>All</button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5 list" data-filter="development">
-              <button class="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-2" data-bs-toggle="pill"
+            <li className="nav-item me-2 me-sm-5 list" data-filter="development">
+              <button className="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-2" data-bs-toggle="pill"
                 data-bs-target="#course-pills-tabs-2" type="button" role="tab" aria-controls="course-pills-tabs-2"
                 aria-selected="false" onClick={() => filterResult('diploma')}> Diploma </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5 list">
-              <button class="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-3" data-bs-toggle="pill"
+            <li className="nav-item me-2 me-sm-5 list">
+              <button className="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-3" data-bs-toggle="pill"
                 data-bs-target="#course-pills-tabs-3" type="button" role="tab" aria-controls="course-pills-tabs-3"
                 aria-selected="false" onClick={() => filterResult('graduate')}> Graduate </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
-              <button class="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-4" data-bs-toggle="pill"
+            <li className="nav-item me-2 me-sm-5">
+              <button className="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-4" data-bs-toggle="pill"
                 data-bs-target="#course-pills-tabs-4" type="button" role="tab" aria-controls="course-pills-tabs-4"
                 aria-selected="false" onClick={() => filterResult('postGraduate')}>Post Graduate </button>
             </li>
 
-            <li class="nav-item me-2 me-sm-5">
-              <button class="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-5" data-bs-toggle="pill"
+            <li className="nav-item me-2 me-sm-5">
+              <button className="nav-link mb-2 mb-md-0 button-list" id="course-pills-tab-5" data-bs-toggle="pill"
                 data-bs-target="#course-pills-tabs-5" type="button" role="tab" aria-controls="course-pills-tabs-5"
                 aria-selected="false" onClick={() => filterResult('superSpeciality')}> Super Speciality</button>
             </li>
           </ul>
-          <div class="tab-content">
-            <div class="row mx-1 course-gap ">
+          <div className="tab-content">
+            <div className="row mx-1 course-gap ">
               {
-                data.map((values) => (
+                data.map((value) => (
                     
                   <div className="col-sm-12 col-lg-4 col-xl-3 col-md-6 ">
-                    <div class="card courses-card" >
-                      <Image key={values.id} src={values.image} class="card-img-top" width={250} height={200} layout="responsive" />
-                      <div class="card-body">
-                        <h5 class="card-title" >
-                          {values.heading}
+                    <div className="card courses-card" >
+                      <Image key={value.id} src={value.image} className="card-img-top" width={250} height={200} layout="responsive" />
+                      <div className="card-body">
+                        <h5 className="card-title" >
+                          {value.heading}
                         </h5>
-                        <p class="card-text card-para d-flex justify-content-start"> {values.body}</p>
-                        <a class=" card-text-link d-flex justify-content-end" href="">Read more</a>
+                        <p className="card-text card-para d-flex justify-content-start"> {value.body}</p>
+                        <a className=" card-text-link d-flex justify-content-end" href="">Read more</a>
                       </div>
                     </div>
                   </div>

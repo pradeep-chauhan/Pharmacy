@@ -106,9 +106,9 @@ function Homepage() {
             </div>
           </div>
         </div>
-        <div class="icon-bar">
-          <a href="https://api.whatsapp.com/send?phone=919694985000" class="float whatsapp" target="_blank">
-          <Whatsapp className='class="fa fa-whatsapp my-float"'></Whatsapp>
+        <div className="icon-bar">
+          <a href="https://api.whatsapp.com/send?phone=919694985000" className="float whatsapp" target="_blank">
+          <Whatsapp className='className="fa fa-whatsapp my-float"'></Whatsapp>
         </a>
         </div>
       </section>

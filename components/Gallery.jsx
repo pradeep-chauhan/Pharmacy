@@ -10,15 +10,14 @@ import Image7 from '../images/student7.jpg'
 import Image8 from '../images/student8.jpeg'
 
 const images = [
-  { Images: Image1 },
-  { Images: Image2 },
-  { Images: Image3 },
-  { Images: Image4 },
-  { Images: Image5 },
-  { Images: Image6 },
-  { Images: Image7 },
-  { Images: Image8 },
-
+  { picture: Image1 },
+  { picture: Image2 },
+  { picture: Image3 },
+  { picture: Image4 },
+  { picture: Image5 },
+  { picture: Image6 },
+  { picture: Image7 },
+  { picture: Image8 }
 ]
 
 export default function Gallery() {
@@ -35,9 +34,9 @@ export default function Gallery() {
           <div className="container">
             <div className="row text-center mx-1 course-gap">
               {
-                images.map(({ Images }) => (
+                images.map(({ picture }) => (
                   <div className="col-sm-6 col-xs-6 col-lg-3 col-xl-3 col-md-6 mt-3">
-                    <Image key={Images} src={Images} className="gallery-images card-img-top" />
+                    <Image key={picture} src={picture} className="gallery-images card-img-top" />
                   </div>
                 ))
               }

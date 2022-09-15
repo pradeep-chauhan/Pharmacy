@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/future/image'
 import Image1 from '../images/people.jpeg'
 
-const data = [
+const testimonies = [
   {
     "id": "1",
     "image": Image1,
@@ -26,7 +26,6 @@ const data = [
   }
 ]
 
-
 function Testimonial() {
   return (
     <>
@@ -41,20 +40,19 @@ function Testimonial() {
         <div className="container">
           <div className="row">
             {
-              data.map((values) => (
+              testimonies.map((value) => (
                 <div className="col-md-4">
                   <div className="card t5 testimonial-card">
                     <div className="d-flex justify-content-center">
-                      <Image key={values.id} src={values.image} className="tm-people " />
+                      <Image key={value.id} src={value.image} className="tm-people " />
                     </div>
                     <div className="card-body">
-                      <h5 className="card-title d-flex justify-content-center">{values.name}</h5>
-                      <h6 className="card-title d-flex justify-content-center">{values.branch}</h6>
-                      <p className="card-text d-flex justify-content-start">{values.paragraph}</p>
+                      <h5 className="card-title d-flex justify-content-center">{value.name}</h5>
+                      <h6 className="card-title d-flex justify-content-center">{value.branch}</h6>
+                      <p className="card-text d-flex justify-content-start">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>
-
               ))
             }
           </div>
@@ -64,6 +62,5 @@ function Testimonial() {
     </>
   )
 }
-
 export default Testimonial
 
