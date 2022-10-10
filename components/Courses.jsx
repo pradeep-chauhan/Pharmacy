@@ -29,7 +29,7 @@ const courses = [
         "image": Image3,
         category: "graduate",
         "heading": "BSc Cardiac Perfusion Technology",
-        "body": "The Health Sciences course includes an interdisciplinary set of skill,  understanding ... "
+        "body": "The Health Sciences course includes an interdisciplinary set of skill..."
     },
     {
         "id": "4",
@@ -43,7 +43,7 @@ const courses = [
         "image": Image5,
         category: "postGraduate",
         "heading": "Doctorate of Medicine [MD] (Biochemistry)",
-        "body": "The knowledge acquired in this program helps  students to integrate molecular ..."
+        "body": "MD knowledge help in acquired student to integrate molecular ..."
     },
     {
         "id": "6",
@@ -57,7 +57,7 @@ const courses = [
         "image": Image7,
         category: "superSpeciality",
         "heading": "Doctorate of Medicine [DM](Neurology)",
-        "body": "Neurology is the branch of medicine concerned with the study of nervous system... "
+        "body": "Neurology is the branch of medicine which the study of nervous system... "
     },
     {
         "id": "8",

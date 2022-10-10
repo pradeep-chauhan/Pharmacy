@@ -38,7 +38,7 @@ function Testimonial() {
           </div>
         </div>
         <div className="container">
-          <div className="row">
+          <div className="row course-gap">
             {
               testimonies.map((value) => (
                 <div className="col-md-4">

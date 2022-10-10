@@ -1,20 +1,36 @@
 .whatsapp{
 	color: white;
 }
-.icon-bar {
+/* .icon-bar {
   position: fixed;
 	width:60px;
 	height:60px;
 	right:39px;
-	bottom: 75px;
+  bottom: 35px;
 	text-align:center;
   font-size:35px;
   z-index:100;
   border-radius: 50px;
   box-shadow: 2px 2px 3px #999;
 	background-color:#25d366;
+} */
+	/*bottom: 75px; canceled*/
 
+.icon-bar{
+  position: fixed;
+    width: 47px;
+    height: 47px;
+    right: 39px;
+    bottom: 35px;
+    text-align: center;
+    font-size: 29px;
+    z-index: 100;
+    border-radius: 50px;
+    box-shadow: 2px 2px 3px #999;
+    background-color: #25d366;
 }
+
+
 .icon-bar a {
   display: block;
   text-align: center;

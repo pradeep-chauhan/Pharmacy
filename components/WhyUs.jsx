@@ -22,7 +22,7 @@ const aboutUsData = [
     "id": "3",
     "image": Image3,
     "title": "27K+",
-    "heading": "Gurukul Student placed in different hospital"
+    "heading": "Gurukul Student placed in 100+ different hospital"
   },
 ]
 function WhyUs() {
@@ -30,7 +30,7 @@ function WhyUs() {
     <>
       <section className="whyus section1">
         <div className="container">
-          <div className="row">
+          <div className="row course-gap">
             {
               aboutUsData.map((value) => (
                 <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12 col-sm-12">
@@ -40,10 +40,10 @@ function WhyUs() {
 
                       <Image key={value.id} src={value.image} className="image-whyus" />
                       <div className="row">
-                        <div className="col-md-4 col-lg-8 col-xl-4">
+                        <div className="col-md-12 col-lg-4 col-xl-4">
                           <h2 className="mt-3 whyus-heading">{value.title}</h2>
                         </div>
-                        <div className="col-md-8 col-lg-8 col-xl-8">
+                        <div className="col-md-12 col-lg-8 col-xl-8">
                           <p className="mt-3 text-align-start "><strong>{value.heading}</strong></p>
                         </div>
                       </div>
