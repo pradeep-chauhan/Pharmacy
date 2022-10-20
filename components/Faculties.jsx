@@ -30,7 +30,8 @@ const facilitate = [
 ]
 function Faculties() {
   return (
-    <div>
+    <>
+      <section className="faculties section1">
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
@@ -38,20 +39,6 @@ function Faculties() {
           </div>
         </div>
         <div className='row'>
-          {/* <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-            <div className="card card-service  mx-2">
-              <Image src={Image4} className='image-service' />
-              <div className="card-body">
-                <h5 className="sub-heading">Dr. Dhanraj Patidar
-
-                </h5>
-                <p className="paragraph">Associate Professor</p>
-                <p className="paragraph">Pharmaceutical Chemistry</p>
-                <a className="d-flex justify-content-center service-footer" href="">Learn More --&gt; </a>
-              </div>
-
-            </div>
-          </div> */}
           {
             facilitate.map((value) => (
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
@@ -67,7 +54,8 @@ function Faculties() {
           }
         </div>
       </div>
-    </div>
+      </section>
+    </>
   )
 }
 

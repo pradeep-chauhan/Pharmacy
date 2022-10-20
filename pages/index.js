@@ -13,6 +13,7 @@ import Footer from '../components/Footer'
 import CareerPath from '../components/CareerPath'
 import Infrastructure from '../components/Infrastructure'
 import Faculties from '../components/Faculties'
+import Committees from '../components/Committees'
 export default function Home() {
   return (
     <div >
@@ -26,6 +27,7 @@ export default function Home() {
       <Infrastructure />
       <Category />
       <Faculties />
+      <Committees />
       <CareerPath />
       <Gallery />
       <Testimonial />
