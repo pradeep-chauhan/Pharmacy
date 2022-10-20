@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/future/image'
-import Image1 from '../images/best-worker-specialist-event-sponsorship-employee-victory-branded-competition-marketing-competitive-event-contests-organized-by-brand-concept_335657-118-removebg-preview.png'
+import Image1 from '../images/In progress-pana.svg'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 
 const offers = [
@@ -42,12 +42,12 @@ const offers = [
 function CareerPath() {
   return (
     <>
-      <section className='section1'>
+      <section className='section1 section-background-color'>
         <div className="container">
           <div className='row text-center mb-5'>
-            <div className="row text-center">
-              <h1 className="mb-5 text-center heading">Career path</h1>
-              <p className="paragraph mb-4">Career path you can choose after the course
+            <div className="row text-center mt-5">
+              <h1 className="mb-5 text-center heading text-white">Career path</h1>
+              <p className="paragraph mb-4 text-white">Career path you can choose after the course
               </p>
             </div>
           </div>
@@ -55,7 +55,7 @@ function CareerPath() {
             <div className='col-lg-7 col-xl-7 col-md-6col-sm-12 col-xs-12'>
               <Image className="img-fluid" src={Image1} />
             </div>
-            <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12'>
+            <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 mb-5'>
               <div className='row'>
                 {
                   offers.map((value) => (
@@ -65,10 +65,14 @@ function CareerPath() {
                           <value.icon className={value.iconClass} />
                         </div>
                         <div className="text pl-3 mt-4">
-                          <h3 className="subheading">{value.heading}</h3>
-                          <p className="subparagraph">{value.paragraph}</p>
+                          <h3 className="subheading text-white">{value.heading}</h3>
                         </div>
                       </div>
+                      {/* <div>
+                        <ul className='services-3 d-flex'>
+                          <li className='text-white'>{value.heading}</li>
+                        </ul>
+                      </div> */}
                     </div>
                   ))
                 }

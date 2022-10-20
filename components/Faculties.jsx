@@ -31,22 +31,22 @@ const facilitate = [
 function Faculties() {
   return (
     <>
-      <section className="faculties section1">
+      <section className="faculties section1 section-background-color">
       <div className="container">
         <div className="row">
-          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <h2 className="mb-5 text-center heading"> Faculties</h2>
+          <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
+            <h2 className="mb-5 text-center heading text-white"> Faculties</h2>
           </div>
         </div>
         <div className='row'>
           {
             facilitate.map((value) => (
-              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
+              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 mb-5">
                 <div className="card card-service  mx-2 my-2">
                 <Image src={Image1} className='image-service' /> 
                 <div className="card-body">
                 <h5 className="sub-heading">{value.heading}</h5>
-                <p className="paragraph">{value.paragraph}</p>
+                <small className="paragraph">{value.paragraph}</small>
               </div>
                 </div>
               </div>

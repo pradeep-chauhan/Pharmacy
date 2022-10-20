@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import '../design/common.css'
 import 'bootstrap/dist/css/bootstrap.css';
 import {useEffect} from 'react'
-
+import '../design/infrastructure.css'
 import '../design/common.css'
 import '../design/homepage.css'
 import '../design/svg.css'

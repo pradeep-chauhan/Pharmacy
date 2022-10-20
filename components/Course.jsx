@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/future/image';
-import Image1 from '../images/online-pharmacy-4316124-3611974.webp'
+import Image1 from '../images/imageedit_2_8033402508-removebg-preview.png'
 function Course() {
   return (
     <>

@@ -8,42 +8,70 @@ const offers = [
     "id": "1",
     "icon": ShieldFillCheck,
     "iconClass": "offer-icons",
-    "heading": "Well Equipped Labs",
+    "heading": "Pharmaceutics Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "2",
+    "icon": ShieldFillCheck,
+    "iconClass": "offer-icons",
+    "heading": "Social Pharmacy lab ",
+    "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
+  },
+  {
+    "id": "3",
+    "icon": ShieldFillCheck,
+    "iconClass": "offer-icons",
+    "heading": "Pharmacognosy Lab",
+    "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
+  },
+  {
+    "id": "4",
+    "icon": ShieldFillCheck,
+    "iconClass": "offer-icons",
+    "heading": "Pharmacy Practice Lab",
+    "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
+  },
+  {
+    "id": "5",
+    "icon": ShieldFillCheck,
+    "iconClass": "offer-icons",
+    "heading": "HAP/Pharmacology Lab",
+    "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
+  },
+  {
+    "id": "6",
     "icon": Clipboard2CheckFill,
     "iconClass": "offer-icons",
     "heading": "Library",
     "paragraph": "The institute have a very good Library with many Reference & Text Books."
   },
   {
-    "id": "3",
+    "id": "7",
     "icon": People,
     "iconClass": "offer-icons",
-    "heading": "Girls common Room",
+    "heading": "Girls Common Room",
     "paragraph": "Designed to give female students a place to relax, study in free time available"
   },
   {
-    "id": "4",
+    "id": "8",
     "icon": Laptop,
     "iconClass": "offer-icons",
     "heading": "Classrooms",
     "paragraph": "Audio-Visual Technology-enabled class to facilitate smart learning"
   },
   {
-    "id": "5",
+    "id": "9",
     "icon": Gear,
     "iconClass": "offer-icons",
     "heading": "Machine Room",
     "paragraph": "Well Equipped Industrial Machine room to give a first-hand experience of the Industry"
   },
   {
-    "id": "6",
+    "id": "10",
     "icon": People,
     "iconClass": "offer-icons",
-    "heading": "Boys common Room",
+    "heading": "Boys Common Room",
     "paragraph": "Designed to give male students a place to relax, study in free time available"
   }
   
@@ -52,13 +80,13 @@ const offers = [
 function Infrastructure() {
   return (
     <>
-      <section className="offer section1">
+      <section className="infrastructure section1 section-background-color">
         <div className="container">
           <div className="row">
-            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
 
-              <h2 className="mb-5 text-center heading"> Infrastructure</h2>
-              <p className="paragraph mb-4">Gurukul College of Pharmacy is well equipped Laboratories with all facilities. The following labs and other facilities are available for students to carry out their study.
+              <h2 className="mb-5 text-center heading text-white"> Infrastructure</h2>
+              <p className="paragraph mb-4 text-white">Gurukul College of Pharmacy is well equipped Laboratories with all facilities. The following labs and other facilities are available for students to carry out their study.
               </p>
             </div>
           </div>
@@ -72,8 +100,8 @@ function Infrastructure() {
                       <value.icon className={value.iconClass} />
                     </div>
                     <div className="text pl-3">
-                      <h3 className="subheading">{value.heading}</h3>
-                      <p className="subparagraph">{value.paragraph}</p>
+                      <h3 className="subheading text-white">{value.heading}</h3>
+                      <p className="subparagraph text-white">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>

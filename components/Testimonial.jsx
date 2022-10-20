@@ -29,11 +29,11 @@ const testimonies = [
 function Testimonial() {
   return (
     <>
-      <section className="section1 testimonial-area">
-        <div className="container">
-          <div className="row text-center">
-            <h1 className="mb-5 text-center heading">Testimonials</h1>
-            <p className="paragraph mb-4">Our students give us their verdict on their experience of studying at the Gurukul Pharmacy
+      <section className="section1 testimonial-area section-background-color">
+        <div className="container ">
+          <div className="row text-center ">
+            <h1 className="mb-5 text-center heading mt-5 text-white">Testimonials</h1>
+            <p className="paragraph mb-4 text-white">Our students give us their verdict on their experience of studying at the Gurukul Pharmacy
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Testimonial() {
           <div className="row course-gap">
             {
               testimonies.map((value) => (
-                <div className="col-md-4">
+                <div className="col-md-4 mb-5">
                   <div className="card t5 testimonial-card">
                     <div className="d-flex justify-content-center">
                       <Image key={value.id} src={value.image} className="tm-people " />

@@ -41,7 +41,7 @@ function Committees() {
                   <div className="card card-service  mx-2 my-2">
                     <div className="card-body ">
                       <h5 className="sub-heading my-3">{value.heading}</h5>
-                      <p className="paragraph">{value.paragraph}</p>
+                      <p className="subparagraph">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>
