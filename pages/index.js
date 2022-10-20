@@ -10,6 +10,7 @@ import Gallery from '../components/Gallery'
 import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
+import CareerPath from '../components/CareerPath'
 export default function Home() {
   return (
     <div >
@@ -21,10 +22,12 @@ export default function Home() {
       <Info />
       <Offer />
       <Category />
+      <CareerPath />
       <Gallery />
       <Testimonial />
       <ContactUs />
       <Footer />
+     
     </div>
   )
 }
