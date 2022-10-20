@@ -11,6 +11,8 @@ import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
 import CareerPath from '../components/CareerPath'
+import Infrastructure from '../components/Infrastructure'
+import Faculties from '../components/Faculties'
 export default function Home() {
   return (
     <div >
@@ -20,14 +22,16 @@ export default function Home() {
       <Homepage />
       <WhyUs />
       <Info />
-      <Offer />
+      {/* <Offer /> */}
+      <Infrastructure />
       <Category />
+      <Faculties />
       <CareerPath />
       <Gallery />
       <Testimonial />
       <ContactUs />
       <Footer />
-     
+    
     </div>
   )
 }
