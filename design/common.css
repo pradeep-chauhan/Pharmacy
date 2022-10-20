@@ -1,3 +1,24 @@
+@font-face {
+  font-family: nexa-bold;
+  src: url(../Font/Nexa\ Bold.otf);
+}
+
+@font-face {
+  font-family: nexa-regular;
+  src: url(../Font/Nexa-Light.otf);
+}
+@font-face {
+  font-family: nexa;
+  src: url(../Font/Nexa\ Regular.otf);
+}
+@font-face {
+  font-family: nexa;
+  src: url(../Font/Nexa-Light.otf);
+}
+
+body{
+  font-family: nexa-regular;
+}
 .button {
   padding: 2.5%;
   margin: 2.5%;
@@ -9,29 +30,30 @@
   font-weight: 400;
   font-style: normal;
   font-variant: normal;
-  font-family: 'PT Sans', sans-serif;
+  font-family: nexa-regular;
 }
 
 .paragraph {
-  font-family: 'PT Sans', sans-serif;
+  font-family: nexa-regular;
   font-weight: 400;
   font-style: normal;
   font-variant: normal;
   vertical-align: baseline;
   font-size: 20px;
-  color: gray;
+  /* color: gray; */
+  color: #363636;
 }
 
 .subheading {
-  font-family: 'PT Sans', sans-serif;
+  font-family: nexa-regular;
   font-weight: 500;
   font-style: normal;
   font-variant: normal;
-  font-size: 30px;
+  /* font-size: 30px; */
 }
 
 .subparagraph {
-  font-family: 'PT Sans', sans-serif;
+  font-family: nexa-regular;
   font-weight: 300;
   font-style: normal;
   font-variant: normal;

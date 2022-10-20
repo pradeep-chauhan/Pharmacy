@@ -4,7 +4,7 @@ const committees = [
   {
     "id": "1",
     "heading": "Anti Ragging ",
-    "paragraph": "Ragging is strictly forbidden in or outside the college campus. All students shall familiarize themselves with rules/regulations/guidelines on code of conduct, Anti-ragging measures and discipline college"
+    "paragraph": "Ragging is strictly forbidden in or outside the college campus. All students shall familiarize themselves with rules/ regulations on code of conduct, Anti-ragging measures and discipline college"
   },
   {
     "id": "2",

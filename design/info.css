@@ -9,7 +9,8 @@
   background-color: #4C436B;
   color: white;
   font-variant:normal;
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: nexa-regular;
 }
 .icon-info{
  
@@ -39,12 +40,14 @@
   
 }
 .card-text{
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: nexa-regular;
   line-break: auto;
   letter-spacing:normal;
   word-spacing:0px;
   font-weight:300;
-  color: gray;
+  /* color: gray; */
+  color: #363636;
   font-size: 16px;
 }
 .card3{

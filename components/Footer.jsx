@@ -85,7 +85,7 @@ function Footer() {
                 <Phone className="fa fa-phone contactIcon"></Phone>
                 <a href="tel:+91xxxxxxxxxx" className="text-white">9876543210</a>
               </p>
-              <p className='inline d-flex justify-content-start contact-us-paragraph text-white '>
+              <p className='inline d-flex justify-content-start contact-us-paragraph text-white mb-5'>
                 <Envelope className='contactIcon '> </Envelope>
                 <a href="" className="text-white"> abc@gmail.com </a>
               </p>

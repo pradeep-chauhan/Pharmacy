@@ -11,7 +11,8 @@ a{
 }
 /*homepage*/
 .homepageheading{
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
+  font-family: nexa-regular;
   line-height:45.6px;
   line-break: auto;
   vertical-align:baseline;
@@ -40,14 +41,15 @@ a{
   height: 100%;
 }
 .paragraphhomepage{
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: nexa-regular;
   line-break: auto;
   letter-spacing:normal;
   word-spacing:0px;
   font-weight:100;
   color: white;
   vertical-align:baseline;
-  font-size: large;
+  font-size: 16px;
   font-style:normal;
 }
 .image-homepage2{

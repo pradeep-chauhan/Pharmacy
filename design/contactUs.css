@@ -6,11 +6,15 @@
   margin-right: 1.5%;
 }
 .contact-us-paragraph{
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: nexa-regular;
+
   color: gray;
 }
 .contact-us-paragraph a{
-  font-family: 'PT Sans', sans-serif;
+  /* font-family: 'PT Sans', sans-serif; */
+  font-family: nexa-regular;
+
   color: gray;
 }
 

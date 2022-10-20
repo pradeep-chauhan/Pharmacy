@@ -51,3 +51,11 @@
 
   }
 }
+@media (max-width:480px) {
+  .buttonhidden{
+    display: none;
+  }
+  .homepageheading{
+    font-size: 48px;
+  }
+}
