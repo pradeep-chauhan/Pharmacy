@@ -14,6 +14,8 @@ import CareerPath from '../components/CareerPath'
 import Infrastructure from '../components/Infrastructure'
 import Faculties from '../components/Faculties'
 import Committees from '../components/Committees'
+import Course from '../components/Course'
+import Eligibility from '../components/Eligibility'
 export default function Home() {
   return (
     <div >
@@ -25,7 +27,9 @@ export default function Home() {
       <Info />
       {/* <Offer /> */}
       <Infrastructure />
-      <Category />
+      {/* <Category /> */}
+      <Course />
+      <Eligibility />
       <Faculties />
       <Committees />
       <CareerPath />
@@ -33,7 +37,7 @@ export default function Home() {
       <Testimonial />
       <ContactUs />
       <Footer />
-    
+      
     </div>
   )
 }

@@ -55,15 +55,6 @@ function CareerPath() {
             <div className='col-lg-7 col-xl-7 col-md-6col-sm-12 col-xs-12'>
               <Image className="img-fluid" src={Image1} />
             </div>
-            {/* <div className='col-6'>
-              <div className='row'>
-                <h3>Pharmacist</h3>
-                <h3>Scientific Officer</h3>
-                <h3>Quality Analyst</h3>
-                <h3>Production Executive</h3>
-                <h3></h3>
-              </div>
-            </div> */}
             <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12'>
               <div className='row'>
                 {

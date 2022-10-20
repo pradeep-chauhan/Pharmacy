@@ -6,26 +6,26 @@ const facilitate = [
     "id": "1",
     "image": Image1,
     "heading": "Dr. Dhanraj Patidar",
-    "paragraph": "Pharmaceutical Chemistry"
+    "paragraph": "Pharmaceutics"
   },
   {
     "id": "1",
     "image": Image1,
    
     "heading": "Dr. Dhanraj Patidar",
-    "paragraph": "Pharmaceutical Chemistry"
+    "paragraph": "Pharmaceutics"
   },
   {
     "id": "1",
     "image": Image1,
     "heading": "Dr. Dhanraj Patidar",
-    "paragraph": "Pharmaceutical Chemistry"
+    "paragraph": "Pharmaceutics"
   },
   {
     "id": "1",
     "image": Image1,
     "heading": "Dr. Dhanraj Patidar",
-    "paragraph": "Pharmaceutical Chemistry"
+    "paragraph": "Pharmaceutics"
   },
 ]
 function Faculties() {
@@ -42,7 +42,7 @@ function Faculties() {
           {
             facilitate.map((value) => (
               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
-                <div className="card card-service  mx-2">
+                <div className="card card-service  mx-2 my-2">
                 <Image src={Image1} className='image-service' /> 
                 <div className="card-body">
                 <h5 className="sub-heading">{value.heading}</h5>
