@@ -28,8 +28,8 @@ export default function Home() {
       <Info />
      
       <Infrastructure />
-      
-      {/* <Course />
+      <Course />
+      {/*
       <Eligibility />
       <Faculties />
       <Committees />
