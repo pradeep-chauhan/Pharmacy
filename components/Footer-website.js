@@ -5,8 +5,9 @@ function FooterWebsite() {
   const year = today.getFullYear();
   return (
     <div>
-      <hr></hr>
+     
       <div className="container ">
+      <hr></hr>
           <div className="row">
             <div className="col col-md-8 col-sm-12 col-xs-12 mt-3 mb-3 d-flex justify-content-start">
               © {year} Gurukul College of Pharmacy. All Rights Reserved

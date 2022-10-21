@@ -9,7 +9,7 @@ const committees = [
   {
     "id": "2",
     "heading": "Gender Sensitization ",
-    "paragraph": "The cell has also been mainly entrusted with taking up cases of harassment and atrocities on female teachers, employees and girl students,they  take appropriate action against the culprits."
+    "paragraph": "The cell has also been mainly entrusted with taking up cases of harassment ,atrocities on female teachers, employe and girl students,they  take appropriate action against the culprits."
   },
   {
     "id": "3",
