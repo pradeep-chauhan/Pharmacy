@@ -28,7 +28,7 @@ function Info() {
                   <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card1 card5 mb-3">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card1 card5 mb-3 info-card">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <People className='fas fa-graduation-cap icon-info mt-3 mb-3' />
@@ -38,7 +38,7 @@ function Info() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card2 card5 mb-3">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card2 card5 mb-3 info-card">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
@@ -56,7 +56,7 @@ function Info() {
                   <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5 mb-3">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5 mb-3 info-card">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <JournalMedical className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
@@ -67,7 +67,7 @@ function Info() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card5 mb-3">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card5 mb-3 info-card">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Book className='fas fa-graduation-cap icon-info mt-3 mb-3' />

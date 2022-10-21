@@ -74,6 +74,9 @@
     position: relative;
     bottom: 0%; 
   }
+  .info-card{
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width:580px) {
