@@ -39,7 +39,7 @@ function Testimonial() {
         </div>
         <div className="container">
           <div className="row course-gap">
-            {
+            {/* {
               testimonies.map((value) => (
                 <div className="col-md-4 mb-5">
                   <div className="card t5 testimonial-card">
@@ -54,7 +54,43 @@ function Testimonial() {
                   </div>
                 </div>
               ))
-            }
+            } */}
+            <div className="col-md-4 mb-2">
+              <div className="card t5 testimonial-card">
+                <div className="d-flex justify-content-center">
+                  <Image src={Image1} className="tm-people " />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+                  <h6 className="card-title d-flex justify-content-center">BSc Applied Medical Sciences</h6>
+                  <p className="card-text d-flex justify-content-start">Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-2">
+              <div className="card t5 testimonial-card">
+                <div className="d-flex justify-content-center">
+                  <Image src={Image1} className="tm-people " />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+                  <h6 className="card-title d-flex justify-content-center">BSc Applied Medical Sciences</h6>
+                  <p className="card-text d-flex justify-content-start">Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life.</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-5">
+              <div className="card t5 testimonial-card">
+                <div className="d-flex justify-content-center">
+                  <Image src={Image1} className="tm-people " />
+                </div>
+                <div className="card-body">
+                  <h5 className="card-title d-flex justify-content-center">David Jones</h5>
+                  <h6 className="card-title d-flex justify-content-center">BSc Applied Medical Sciences</h6>
+                  <p className="card-text d-flex justify-content-start">Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
