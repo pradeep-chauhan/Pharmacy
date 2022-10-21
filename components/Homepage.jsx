@@ -27,7 +27,7 @@ function Homepage() {
                         <a className="nav-link nav-bold mx-2 active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#aboutUs">About Us</a>
+                        <a className="nav-link nav-bold mx-2" href="#aboutUs">AboutUs</a>
                       </li>
                       <li className="nav-item">
                         <a className="nav-link nav-bold mx-2" href="#committees">Committees
@@ -80,13 +80,13 @@ function Homepage() {
                     </div>
                   </div>
                   <div className="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-7 col-xl-7">
-                    <div className="image-homepage mt-4">
+                    <div className="image-homepage mt-4 img-fluid buttonhidden">
                     </div>
                     <div>
                       <p className="mt-3 paragraphhomepage">Gurukul College of Pharmacy managed by Nahar Singh mata Jan vikas sanasthan. The college is endowed with excellent infrastructure, state of the art laboratories and a team of dedicated faculty members with affluent research interests. </p>
                     </div>
                     <div className="mt-3">
-                      <button type="button" className="btn button btn-light p-3 buttonhidden ">Play Video </button>
+                      <button type="button" className="btn button btn-light p-3  ">Play Video </button>
 
                     </div>
                   </div>

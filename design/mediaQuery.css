@@ -67,6 +67,14 @@
   .heading{
     font-size: 32px;
   }
+  .home-background{
+    min-height: 300px;
+  }
+  .card-whyus{
+    position: relative;
+    bottom: 0%; 
+    margin-top: 1.5rem;
+  }
 }
 
 @media (max-width:580px) {

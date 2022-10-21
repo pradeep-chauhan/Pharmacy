@@ -47,7 +47,7 @@ const offers = [
     "id": "5",
     "icon": Image5,
     "iconClass": "offer-icons",
-    "heading": "HAP/Pharmacology Lab",
+    "heading": "HAP / Pharmacology Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {

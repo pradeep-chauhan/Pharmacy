@@ -26,10 +26,10 @@ export default function Home() {
       <Homepage />
       <WhyUs />
       <Info />
-      {/* <Offer /> */}
+     
       <Infrastructure />
-      {/* <Category /> */}
-      <Course />
+      
+      {/* <Course />
       <Eligibility />
       <Faculties />
       <Committees />
@@ -38,8 +38,11 @@ export default function Home() {
       <Testimonial />
       <ContactUs />
       <Footer />
-      <FooterWebsite />
+      <FooterWebsite /> */}
+
       
+      {/* <Offer /> */} 
+      {/* <Category /> */}
     </div>
   )
 }
