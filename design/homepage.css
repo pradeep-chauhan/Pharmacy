@@ -1,79 +1,106 @@
-a{
+a {
   text-decoration: none;
   color: black;
 }
-.nav-link{
+
+.nav-link {
   text-decoration: none;
   color: black !important;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
   background-color: #fd5f00;
 }
+
 /*homepage*/
-.homepageheading{
-  /* font-family: 'Inter', sans-serif; */
+.homepageheading {
   font-family: nexa-regular;
-  line-height:45.6px;
+  line-height: 49.6px;
   line-break: auto;
-  vertical-align:baseline;
-  letter-spacing:normal;
-  word-spacing:10px;
-  font-weight:800;
-  font-size: 60px;
-  font-variant:normal;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 10px;
+  font-weight: 800;
+  font-size: 75px;
+  font-variant: normal;
 }
-.button-homepage{
+
+.homepageheading1 {
+  font-family: Beveled;
+  line-height: 49.6px;
+  line-break: auto;
+  vertical-align: baseline;
+  letter-spacing: normal;
+  word-spacing: 10px;
+  font-weight: 800;
+  font-size: 75px;
+  font-variant: normal;
+}
+
+.button-homepage {
   background-color: #F96438 !important;
   color: white;
 }
-.home-background{
+
+.home-background {
   background-color: #4C436B;
   max-height: fit-content;
-  min-height:550px;
+  min-height: 550px;
 }
-.image-homepage{
-  background-image:url('../images/team.jpg');
-  border-radius: 150px  !important;
-  background-position:center center;
-  background-size:250px 300px;
+
+.image-homepage {
+  background-image: url('../images/team.jpg');
+  border-radius: 150px !important;
+  background-position: center center;
+  background-size: 250px 300px;
   background-repeat: no-repeat;
   width: 50%;
   height: 100%;
 }
-.paragraphhomepage{
+
+.paragraphhomepage {
   /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
   line-break: auto;
-  letter-spacing:normal;
-  word-spacing:0px;
-  font-weight:100;
+  letter-spacing: normal;
+  word-spacing: 0px;
+  font-weight: 100;
   color: white;
-  vertical-align:baseline;
+  vertical-align: baseline;
   font-size: 16px;
-  font-style:normal;
+  font-style: normal;
+  justify-content: center;
+  text-align: start;
 }
-.image-homepage2{
-align-items: center !important;
+
+.image-homepage2 {
+  align-items: center !important;
 }
-.image-homepage3{
+
+.image-homepage3 {
   position: absolute !important;
-  left: 30% ;
-  top: 260px ;
+  left: 30%;
+  top: 260px;
 }
-.roundtext{
-  width:100; 
-  height:100;
+
+.roundtext {
+  width: 100;
+  height: 100;
   color: white;
 }
+
 .svgText {
   fill: currentColor;
   height: auto;
   max-width: 66vmin;
   transform-origin: center;
-  width: 66%;
-  color:white;
+  width: 60%;
+  color: white;
 }
-.round-text{
-  font-size:17.35px;
+
+.round-text {
+  font-size: 17.80px;
   color: white !important;
+  font-weight: 400;
 }

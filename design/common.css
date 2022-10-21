@@ -16,6 +16,11 @@
   src: url(../Font/Nexa-Light.otf);
 }
 
+@font-face {
+  font-family: Beveled;
+  src: url(../Font/BaltimoreTypewriterBold\ Beveled.otf  );
+}
+
 body{
   font-family: nexa-regular;
 }
@@ -79,4 +84,7 @@ body{
 
 .nav-bold{
   font-weight: 500 !important;
+}
+.text-purple{
+  color: #4C436B;
 }

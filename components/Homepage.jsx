@@ -16,7 +16,7 @@ function Homepage() {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container">
-                  <a className="navbar-brand mx-3" href="#"><strong>Gurukul Pharmacy</strong></a>
+                  <a className="navbar-brand mx-3 " href="#"><strong className='text-purple'>Gurukul Pharmacy</strong></a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@ function Homepage() {
               <div className="container">
                 <div className="row">
                   <div className="col col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
-                    <div className="d-none d-sm-block d-md-block d-xs-block ">
+                    <div className="d-none d-sm-block d-md-block d-xs-block text-center">
                       <svg className="mt-5 roundtext svgText" viewBox="0 0 100 100" >
                         <defs>
                           <path id="circle"
@@ -91,7 +91,7 @@ function Homepage() {
                       <p className="mt-3 paragraphhomepage">Gurukul College of Pharmacy managed by Nahar Singh mata Jan vikas sanasthan. The college is endowed with excellent infrastructure, state of the art laboratories and a team of dedicated faculty members with affluent research interests. </p>
                     </div>
                     <div className="mt-3">
-                      <button type="button" className="btn button btn-light p-3 buttonhidden">Play Video </button>
+                      <button type="button" className="btn button btn-light p-3 buttonhidden ">Play Video </button>
 
                     </div>
                   </div>

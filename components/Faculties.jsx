@@ -39,19 +39,23 @@ function Faculties() {
           </div>
         </div>
         <div className='row'>
-          {
+       
+          { 
             facilitate.map((value) => (
-              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 mb-5">
-                <div className="card card-service  mx-2 my-2">
+              <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
+                <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' /> 
                 <div className="card-body">
                 <h5 className="sub-heading">{value.heading}</h5>
                 <small className="paragraph">{value.paragraph}</small>
               </div>
                 </div>
-              </div>
+                </div>
             ))
+            
+
           }
+        
         </div>
       </div>
       </section>
