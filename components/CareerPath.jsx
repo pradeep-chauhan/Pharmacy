@@ -2,33 +2,37 @@ import React from 'react'
 import Image from 'next/future/image'
 import Image1 from '../images/In progress-pana.svg'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
+import Image2 from '../images/pharmacist (1).png'
+import Image3 from '../images/pharmacist (3).png'
+import Image4 from '../images/pharmacist (4).png'
+import Image5 from '../images/pharmacist (5).png'
 
 const offers = [
 
   {
     "id": "1",
-    "icon": ShieldFillCheck,
+    "icon": Image2,
     "iconClass": "carrer-icons",
     "heading": "Pharmacist",
 
   },
   {
     "id": "2",
-    "icon": Clipboard2CheckFill,
+    "icon": Image3,
     "iconClass": "carrer-icons",
     "heading": "Scientific Officer",
 
   },
   {
     "id": "3",
-    "icon": People,
+    "icon": Image4,
     "iconClass": "carrer-icons",
     "heading": "Quality Analyst",
 
   },
   {
     "id": "4",
-    "icon": Laptop,
+    "icon": Image5,
     "iconClass": "carrer-icons",
     "heading": "Transcriptionist",
   },
@@ -52,7 +56,7 @@ function CareerPath() {
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-7 col-xl-7 col-md-6col-sm-12 col-xs-12'>
+            <div className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12'>
               <Image className="img-fluid" src={Image1} />
             </div>
             <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 mb-5'>
@@ -61,8 +65,10 @@ function CareerPath() {
                   offers.map((value) => (
                     <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
                       <div className="services-3 d-flex">
-                        <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon">
-                          <value.icon className={value.iconClass} />
+                        {/* <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon"> */}
+                        <div className="icon mt-2 d-flex justify-content-center align-items-center ">
+                          {/* <value.icon className={value.iconClass} /> */}
+                          <Image src={value.icon} className="img-fluid"/>
                         </div>
                         <div className="text pl-3 mt-4">
                           <h3 className="subheading text-white">{value.heading}</h3>

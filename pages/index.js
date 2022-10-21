@@ -16,6 +16,7 @@ import Faculties from '../components/Faculties'
 import Committees from '../components/Committees'
 import Course from '../components/Course'
 import Eligibility from '../components/Eligibility'
+import FooterWebsite from '../components/Footer-website'
 export default function Home() {
   return (
     <div >
@@ -37,6 +38,7 @@ export default function Home() {
       <Testimonial />
       <ContactUs />
       <Footer />
+      <FooterWebsite />
       
     </div>
   )

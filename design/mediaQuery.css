@@ -64,12 +64,16 @@
   .homepageheading1{
     font-size: 50px;
   }
-  .bullet-point-1{
-    float: none;
-    width: 100%;
-  }
-  .bullet-point-2{
-    float: none;
-    width: 100%;
-  }
+}
+
+@media (max-width:580px) {
+
+.bullet-point-1{
+  float: none;
+  width: 100%;
+}
+.bullet-point-2{
+  float: none;
+  width: 100%;
+}
 }
