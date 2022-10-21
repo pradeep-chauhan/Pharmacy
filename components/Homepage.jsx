@@ -4,19 +4,19 @@ import Image from 'next/future/image'
 import Svg1 from '../images/semicircle(1).png'
 import Svg2 from '../images/zigzag-lines-in-side-view-position.png'
 import Image1 from '../images/student-hand-removebg-preview.png'
-import { Whatsapp  } from 'react-bootstrap-icons';
+import { Whatsapp } from 'react-bootstrap-icons';
 import Svg3 from '../images/star2.png'
 
 function Homepage() {
   return (
     <div>
-      <section className="home section1">
+      <section className="home section1" id='home'>
         <div className="container-fluid">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container">
-                  <a className="navbar-brand mx-3 " href="#"><strong className='text-purple'>Gurukul Pharmacy</strong></a>
+                  <a className="navbar-brand mx-3 " href="#home"><strong className='text-purple'>Gurukul Pharmacy</strong></a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,17 +24,17 @@ function Homepage() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mx-auto">
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2 active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link nav-bold mx-2 active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#">Services</a>
+                        <a className="nav-link nav-bold mx-2" href="#aboutUs">About Us</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#">Course
-                          </a>
+                        <a className="nav-link nav-bold mx-2" href="#committees">Committees
+                        </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#">Academics</a>
+                        <a className="nav-link nav-bold mx-2" href="#gallery">Gallery</a>
                       </li>
                     </ul>
                   </div>
@@ -59,24 +59,19 @@ function Homepage() {
 
               </div>
               <div className="d-none d-sm-block d-md-block ">
-                <Image className="homepage-svg2" src={Svg2}  />
+                <Image className="homepage-svg2" src={Svg2} />
               </div>
             </div>
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 home-background">
               <div className="container">
                 <div className="row">
-                  <div className="col col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
-                    <div className="d-none d-sm-block d-md-block d-xs-block text-center">
-                      <svg className="mt-5 roundtext svgText" viewBox="0 0 100 100" >
+                  <div class="col col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 circle">
+                    <div class="d-none d-sm-block d-md-block d-xs-block text-center">
+                      <svg class="mt-5 roundtext svgText" viewBox="0 0 100 100">
                         <defs>
-                          <path id="circle"
-                            d="
-                          M 50, 50
-                          m -37, 0
-                          a 37,37 0 1,1 74,0
-                          a 37,37 0 1,1 -74,0"/>
+                          <path id="circle" d=" M 50, 50 m -37, 0 a 37,37 0 1,1 74,0 a 37,37 0 1,1 -74,0"></path>
                         </defs>
-                        <text className="round-text">
+                        <text class="round-text">
                           <textPath xlinkHref="#circle">
                             Gurukul Pharmacy Education
                           </textPath>
@@ -109,8 +104,8 @@ function Homepage() {
         </div>
         <div className="icon-bar">
           <a href="https://api.whatsapp.com/send?phone=919694985000" className="float whatsapp" target="_blank">
-          <Whatsapp className='className="fa fa-whatsapp my-float"'></Whatsapp>
-        </a>
+            <Whatsapp className='className="fa fa-whatsapp my-float"'></Whatsapp>
+          </a>
         </div>
       </section>
     </div>

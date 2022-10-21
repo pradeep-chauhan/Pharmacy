@@ -35,13 +35,7 @@ const offers = [
     "icon": Image5,
     "iconClass": "carrer-icons",
     "heading": "Transcriptionist",
-  },
-  // {
-  //   "id": "5",
-  //   "icon": Laptop,
-  //   "iconClass": "carrer-icons",
-  //   "heading": "Production Executive",
-  // },
+  }
 ]
 function CareerPath() {
   return (

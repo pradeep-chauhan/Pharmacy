@@ -80,3 +80,10 @@
   width: 100%;
 }
 }
+
+@media (min-width: 1200px){
+  .circle.col-xl-5 {
+      flex: 0 0 auto;
+      width: 36.666667%;
+  }
+}

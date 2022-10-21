@@ -45,7 +45,6 @@ body{
   font-variant: normal;
   vertical-align: baseline;
   font-size: 20px;
-  /* color: gray; */
   color: #363636;
 }
 
@@ -54,7 +53,6 @@ body{
   font-weight: 500;
   font-style: normal;
   font-variant: normal;
-  /* font-size: 30px; */
   font-size: 27px;
   text-align: justify;
 }

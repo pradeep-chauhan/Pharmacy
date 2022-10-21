@@ -4,11 +4,11 @@ import Image1 from '../images/imageedit_2_8033402508-removebg-preview.png'
 function Course() {
   return (
     <>
-      <section className="course section1">
+      <section className="course section1" id='aboutUs'>
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h2 className="mb-5 text-center heading"> Academics at Gurukul </h2>
+              <h2 className="mb-5 text-center heading"> About Us </h2>
             </div>
             <div className=''>
               <div className='row'>
