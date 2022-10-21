@@ -47,7 +47,7 @@ function Info() {
                             <div className="card-body">
                               <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
                               <h4 className="card-heading">Full bright Scholarship</h4>
-                              <p className="card-text">Under the able tutelage of our dedicated scholarly professional always
+                              <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
                                 available to help you</p>
                             </div>
                           </div>
@@ -69,7 +69,7 @@ function Info() {
                               <JournalMedical className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
                               <i class="fas fa-diagnoses"></i>
                               <h4 className="card-heading">Well Occupied Lab</h4>
-                              <p className="card-text">Under the able tutelage of our dedicated scholarly professional always
+                              <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
                                 available to help you</p>
                             </div>
                           </div>
