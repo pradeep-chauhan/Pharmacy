@@ -12,8 +12,8 @@ function Course() {
             </div>
             <div className=''>
               <div className='row'>
-                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sm-12'>
-                  <Image className="img-fluid" src={Image1} />
+                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sm-12 mb-4'>
+                  <Image className="img-fluid " src={Image1} />
                 </div>
                 <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sm-12'>
                   <p className='course-paragraph'>
