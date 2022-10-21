@@ -55,7 +55,7 @@ function Testimonial() {
                 </div>
               ))
             } */}
-            <div className="col-md-4 mb-2">
+            <div className="col-md-4 mb-4">
               <div className="card t5 testimonial-card">
                 <div className="d-flex justify-content-center">
                   <Image src={Image1} className="tm-people " />
@@ -67,7 +67,7 @@ function Testimonial() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 mb-2">
+            <div className="col-md-4 mb-4">
               <div className="card t5 testimonial-card">
                 <div className="d-flex justify-content-center">
                   <Image src={Image1} className="tm-people " />

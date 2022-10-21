@@ -35,7 +35,7 @@ function Faculties() {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
-              <h2 className="mb-5 text-center heading text-white"> Meet Our Faculty</h2>
+              <h2 className="mb-5 text-center heading text-white"> Meet Our Faculty Members</h2>
             </div>
           </div>
           <div className='row'>
@@ -46,8 +46,8 @@ function Faculties() {
                   <div className="card card-service  mx-2 my-1">
                     <Image src={Image1} className='image-service' />
                     <div className="card-body">
-                      <h5 className="sub-heading">{value.heading}</h5>
-                      <small className="paragraph">{value.paragraph}</small>
+                      <h4 className="sub-heading">{value.heading}</h4>
+                      <p className="paragraph">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>
@@ -59,8 +59,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h5 className="sub-heading">Dr. Dhanraj Patidar</h5>
-                  <small className="paragraph">Pharmaceutics</small>
+                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
+                  <p className="paragraph text-center">Pharmaceutics</p>
                 </div>
               </div>
             </div>
@@ -68,8 +68,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h5 className="sub-heading">Dr. Dhanraj Patidar</h5>
-                  <small className="paragraph">Pharmaceutics</small>
+                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
+                  <p className="paragraph text-center">Pharmaceutics</p>
                 </div>
               </div>
             </div>
@@ -77,8 +77,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h5 className="sub-heading">Dr. Dhanraj Patidar</h5>
-                  <small className="paragraph">Pharmaceutics</small>
+                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
+                  <p className="paragraph text-center">Pharmaceutics</p>
                 </div>
               </div>
             </div>
@@ -86,8 +86,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h5 className="sub-heading">Dr. Dhanraj Patidar</h5>
-                  <small className="paragraph">Pharmaceutics</small>
+                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
+                  <p className="paragraph text-center">Pharmaceutics</p>
                 </div>
               </div>
             </div>

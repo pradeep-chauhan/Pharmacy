@@ -17,7 +17,6 @@ import Committees from '../components/Committees'
 import Course from '../components/Course'
 import Eligibility from '../components/Eligibility'
 import FooterWebsite from '../components/Footer-website'
-import Favicon from '../components/Favicon'
 export default function Home() {
   return (
     <div >
@@ -38,16 +37,18 @@ export default function Home() {
       <Course />
       <Eligibility />
       <Faculties />
-      {/*
-  
-      <Faculties />
       <Committees />
       <CareerPath />
       <Gallery />
       <Testimonial />
       <ContactUs />
       <Footer />
-      <FooterWebsite /> */}
+      <FooterWebsite />
+      {/*
+  
+      
+      
+      */}
 
       
       {/* <Offer /> */} 
