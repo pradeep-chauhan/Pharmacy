@@ -35,7 +35,7 @@ function Faculties() {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
-              <h2 className="mb-5 text-center heading text-white"> Faculties</h2>
+              <h2 className="mb-5 text-center heading text-white"> Meet Our Faculty</h2>
             </div>
           </div>
           <div className='row'>
