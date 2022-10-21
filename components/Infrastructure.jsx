@@ -47,7 +47,7 @@ const offers = [
     "id": "5",
     "icon": Image5,
     "iconClass": "offer-icons",
-    "heading": "HAP / Pharmacology Lab",
+    "heading": "Pharmacology Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
@@ -61,7 +61,7 @@ const offers = [
     "id": "7",
     "icon": Image7,
     "iconClass": "offer-icons",
-    "heading": "Girls Common Room",
+    "heading": "Girl's Common Room",
     "paragraph": "Designed to give female students a place to relax, study in free time available"
   },
   {
@@ -69,7 +69,7 @@ const offers = [
     "icon": Image8,
     "iconClass": "offer-icons",
     "heading": "Classrooms",
-    "paragraph": "Audio-Visual Technology-enabled class to facilitate smart learning"
+    "paragraph": "Audio Visual Technology enabled class to facilitate smart learning"
   },
   {
     "id": "9",
@@ -82,7 +82,7 @@ const offers = [
     "id": "10",
     "icon": Image10,
     "iconClass": "offer-icons",
-    "heading": "Boys Common Room",
+    "heading": "Boy's Common Room",
     "paragraph": "Designed to give male students a place to relax, study in free time available"
   }
   
@@ -111,7 +111,7 @@ function Infrastructure() {
                       <Image src={value.icon} className="infrastructureimage " />
                     </div>
                     <div className="text pl-3">
-                      <h3 className="subheading text-white">{value.heading}</h3>
+                      <h3 className="subheading-infrastructure text-white">{value.heading}</h3>
                       <p className="subparagraph text-white">{value.paragraph}</p>
                     </div>
                   </div>

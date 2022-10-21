@@ -5,5 +5,12 @@
 .bullet-point-2{
   float: right;
   width: 50%;
-  
+}
+.subheading-infrastructure{
+  font-family: nexa-regular;
+  font-weight: 500;
+  font-style: normal;
+  font-variant: normal;
+  font-size: 27px;
+  text-align: start;
 }
