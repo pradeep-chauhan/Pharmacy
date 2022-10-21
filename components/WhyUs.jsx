@@ -33,7 +33,7 @@ function WhyUs() {
           <div className="row course-gap">
             {
               aboutUsData.map((value) => (
-                <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12 col-sm-12 mb-4">
+                <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12 col-sm-12 mb-4 mt-4">
                   <div className="card card-whyus">
                     <div className="card-body text-center">
                     <h5 className='text-start fs-1 footer-para'>{value.id}</h5>
