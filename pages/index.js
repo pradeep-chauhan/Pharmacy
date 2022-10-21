@@ -37,6 +37,7 @@ export default function Home() {
       <Infrastructure />
       <Course />
       <Eligibility />
+      <Faculties />
       {/*
   
       <Faculties />
