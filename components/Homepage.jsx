@@ -5,6 +5,7 @@ import Svg1 from '../images/semicircle(1).png'
 import Svg2 from '../images/zigzag-lines-in-side-view-position.png'
 import Image1 from '../images/student-hand-removebg-preview.png'
 import { Whatsapp  } from 'react-bootstrap-icons';
+import Svg3 from '../images/star2.png'
 
 function Homepage() {
   return (
@@ -15,7 +16,7 @@ function Homepage() {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container">
-                  <a className="navbar-brand mx-3" href="#">Gurukul Pharmacy</a>
+                  <a className="navbar-brand mx-3" href="#"><strong>Gurukul Pharmacy</strong></a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -23,16 +24,17 @@ function Homepage() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mx-auto">
                       <li className="nav-item">
-                        <a className="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+                        <a className="nav-link nav-bold mx-2 active" aria-current="page" href="#">Home</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link mx-2" href="#">Services</a>
+                        <a className="nav-link nav-bold mx-2" href="#">Services</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link mx-2" href="#">Course</a>
+                        <a className="nav-link nav-bold mx-2" href="#">Course
+                          </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link mx-2" href="#">Academics</a>
+                        <a className="nav-link nav-bold mx-2" href="#">Academics</a>
                       </li>
                     </ul>
                   </div>
@@ -43,6 +45,7 @@ function Homepage() {
                 <div className="row mx-2">
                   <div className="d-none d-sm-block d-md-block">
                     <Image src={Svg1} className='homepage-svg1' />
+                    <Image src={Svg3} className='homepage-svg3' />
                   </div>
                   <h1 className=" mt-5 homepageheading">Your Best </h1>
 

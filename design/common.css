@@ -76,3 +76,7 @@ body{
 .section-background-color {
   background-color: #4C436B;
 }
+
+.nav-bold{
+  font-weight: 500 !important;
+}
