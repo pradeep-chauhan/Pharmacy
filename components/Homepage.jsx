@@ -49,8 +49,8 @@ function Homepage() {
                   </div>
                   <h1 className=" mt-5 homepageheading">Your Best </h1>
 
-                  <h1 className=" mt-2 homepageheading">Education</h1>
-                  <h1 className="mt-2  homepageheading">Solution</h1>
+                  <h1 className=" mt-2 ms-1  homeoageheading1">Education</h1>
+                  <h1 className="mt-4  homepageheading">Solution</h1>
                 </div>
                 <div className="mt-3 mx-2">
                   <button type="button" className="btn button button-homepage">Get Started</button>

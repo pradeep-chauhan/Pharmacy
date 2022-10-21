@@ -26,15 +26,15 @@ a {
   font-variant: normal;
 }
 
-.homepageheading1 {
-  font-family: Beveled;
-  line-height: 49.6px;
+.homeoageheading1 {
+  font-family: LondrinaShadow;
+  line-height: 45.6px;
   line-break: auto;
   vertical-align: baseline;
-  letter-spacing: normal;
+  letter-spacing: 6px;
   word-spacing: 10px;
-  font-weight: 800;
-  font-size: 75px;
+  font-size: 85px;
+  font-feature-settings: normal;
   font-variant: normal;
 }
 
@@ -60,7 +60,6 @@ a {
 }
 
 .paragraphhomepage {
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
   line-break: auto;
   letter-spacing: normal;
@@ -72,6 +71,7 @@ a {
   font-style: normal;
   justify-content: center;
   text-align: start;
+  text-align: justify !important;
 }
 
 .image-homepage2 {

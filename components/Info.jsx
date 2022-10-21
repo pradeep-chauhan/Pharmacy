@@ -3,7 +3,7 @@ import Image from 'next/future/image'
 import { Container } from 'react-bootstrap';
 import Svg1 from '../images/semicircle(1).png'
 import Svg2 from '../images/zigzag-lines-in-side-view-position.png'
-import { People, Award } from 'react-bootstrap-icons'
+import { People, Award,Book , JournalMedical} from 'react-bootstrap-icons'
 function Info() {
   return (
     <>
@@ -64,8 +64,11 @@ function Info() {
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5 mb-1">
                           <div className="card card5 card6">
                             <div className="card-body">
-                              <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Full bright Scholarship</h4>
+                              {/* <Image src={Image1} className='fa fa-graduation-cap img-fluid icon-info mt-3 mb-3' /> */}
+                              
+                              <JournalMedical className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
+                              <i class="fas fa-diagnoses"></i>
+                              <h4 className="card-heading">Well Occupied Lab</h4>
                               <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
                                 available to help you</p>
                             </div>
@@ -74,10 +77,9 @@ function Info() {
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card5 mb-1">
                           <div className="card card5 card6">
                             <div className="card-body">
-                              <People className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Experts Teacher</h4>
-                              <p className="card-text">University of Gurukul Pharmacy is a leading modern university with a tradition of
-                                providing opportunity</p>
+                              <Book className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
+                              <h4 className="card-heading">Library</h4>
+                              <p className="card-text">The institute have a very good Library with many Reference, Text Books and Computer Facilities</p>
                             </div>
                           </div>
                         </div>

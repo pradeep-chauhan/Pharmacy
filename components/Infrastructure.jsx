@@ -1,47 +1,54 @@
 import React from 'react'
 import Icon from 'react'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
+import Image from 'next/future/image';
+import Image1 from '../images/flask (3).png'
+import Image2 from '../images/microscope (2).png'
+import Image3 from '../images/flasks.png'
+import Image4 from '../images/laboratory (1).png'
+import Image5 from '../images/microscope (3).png'
+import Image6 from '../images/book.png'
 
 const offers = [
  
   {
     "id": "1",
-    "icon": ShieldFillCheck,
+    "icon": Image1,
     "iconClass": "offer-icons",
     "heading": "Pharmaceutics Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "2",
-    "icon": ShieldFillCheck,
+    "icon": Image2,
     "iconClass": "offer-icons",
     "heading": "Social Pharmacy lab ",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "3",
-    "icon": ShieldFillCheck,
+    "icon": Image3,
     "iconClass": "offer-icons",
     "heading": "Pharmacognosy Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "4",
-    "icon": ShieldFillCheck,
+    "icon": Image4,
     "iconClass": "offer-icons",
     "heading": "Pharmacy Practice Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "5",
-    "icon": ShieldFillCheck,
+    "icon": Image5,
     "iconClass": "offer-icons",
     "heading": "HAP/Pharmacology Lab",
     "paragraph": "Well-equipped labs to ensure smooth flow of practical learning for students"
   },
   {
     "id": "6",
-    "icon": Clipboard2CheckFill,
+    "icon": Image6,
     "iconClass": "offer-icons",
     "heading": "Library",
     "paragraph": "The institute have a very good Library with many Reference & Text Books."
@@ -96,8 +103,9 @@ function Infrastructure() {
               offers.map((value) => (
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
-                    <div className="icon mt-2 d-flex justify-content-center align-items-center offericon">
-                      <value.icon className={value.iconClass} />
+                    <div className="icon mt-2 d-flex justify-content-center align-items-center offericon infrastructureimage">
+                      {/* <value.icon className={value.iconClass} /> */}
+                      <Image src={value.icon} className="infrastructureimage" />
                     </div>
                     <div className="text pl-3">
                       <h3 className="subheading text-white">{value.heading}</h3>

@@ -17,8 +17,8 @@
 }
 
 @font-face {
-  font-family: Beveled;
-  src: url(../Font/ReliefGroteskExtended.otf );
+  font-family: LondrinaShadow;
+  src: url(../Font/LondrinaShadow-Regular.ttf);
 }
 
 body{
@@ -55,8 +55,8 @@ body{
   font-style: normal;
   font-variant: normal;
   /* font-size: 30px; */
+  text-align: justify;
 }
-
 .subparagraph {
   font-family: nexa-regular;
   font-weight: 300;
@@ -64,6 +64,7 @@ body{
   font-variant: normal;
   font-size: 16px;
   color: gray;
+  text-align: justify;
 }
 
  body {

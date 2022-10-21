@@ -12,7 +12,7 @@
   padding-left: 1rem!important;
 }
 .offericon{
-    background: #fd5f00;
+    background: #f75023;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -24,4 +24,7 @@
   color: white;
   background-color: #f75023;
   border-radius: 50%;
+}
+.infrastructureimage{
+  font-size: 50px !important;
 }
