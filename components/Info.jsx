@@ -31,7 +31,7 @@ function Info() {
                   <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card1 card5">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card1 card5 mb-1">
                           <div className="card card5 card6">
                             <div className="card-body">
 
@@ -42,7 +42,7 @@ function Info() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card2 card5">
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card2 card5 mb-1">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
@@ -60,23 +60,24 @@ function Info() {
                   <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5">
-                          <div className="card card5 card6">
-                            <div className="card-body">
-                              <People className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Experts Teacher</h4>
-                              <p className="card-text">University of Gurukul Pharmacy is a leading modern university with a tradition of
-                                providing opportunity</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card5">
+                       
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5 mb-1">
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
                               <h4 className="card-heading">Full bright Scholarship</h4>
                               <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
                                 available to help you</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12  card5 mb-1">
+                          <div className="card card5 card6">
+                            <div className="card-body">
+                              <People className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
+                              <h4 className="card-heading">Experts Teacher</h4>
+                              <p className="card-text">University of Gurukul Pharmacy is a leading modern university with a tradition of
+                                providing opportunity</p>
                             </div>
                           </div>
                         </div>
