@@ -2,12 +2,13 @@ import React from 'react'
 import Image from 'next/future/image'
 import Image1 from '../images/In progress-pana.svg'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
+import Image2 from '../images/pharmacist (1).png'
 
 const offers = [
 
   {
     "id": "1",
-    "icon": ShieldFillCheck,
+    "icon": Image2,
     "iconClass": "carrer-icons",
     "heading": "Pharmacist",
 
@@ -61,8 +62,10 @@ function CareerPath() {
                   offers.map((value) => (
                     <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
                       <div className="services-3 d-flex">
-                        <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon">
-                          <value.icon className={value.iconClass} />
+                        {/* <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon"> */}
+                        <div className="icon mt-2 d-flex justify-content-center align-items-center ">
+                          {/* <value.icon className={value.iconClass} /> */}
+                          <Image src={value.icon} className="img-fluid"/>
                         </div>
                         <div className="text pl-3 mt-4">
                           <h3 className="subheading text-white">{value.heading}</h3>

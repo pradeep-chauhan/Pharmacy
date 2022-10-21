@@ -2,7 +2,7 @@ import React from 'react'
 import Icon from 'react'
 import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 import Image from 'next/future/image';
-import Image1 from '../images/flask (3).png'
+import Image1 from '../images/flask (5).png'
 import Image2 from '../images/microscope (2).png'
 import Image3 from '../images/flasks.png'
 import Image4 from '../images/laboratory (1).png'
@@ -107,9 +107,9 @@ function Infrastructure() {
               offers.map((value) => (
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
-                    <div className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage">
+                    <div className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage  ">
                       {/* <value.icon className={value.iconClass} /> */}
-                      <Image src={value.icon} className="infrastructureimage" />
+                      <Image src={value.icon} className="infrastructureimage " />
                     </div>
                     <div className="text pl-3">
                       <h3 className="subheading text-white">{value.heading}</h3>

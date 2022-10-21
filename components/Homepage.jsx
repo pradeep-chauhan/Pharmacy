@@ -65,7 +65,7 @@ function Homepage() {
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 home-background">
               <div className="container">
                 <div className="row">
-                  <div className="col col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5">
+                  <div className="col col-xs-12 col-sm-12 col-md-6 col-lg-5 col-xl-5 circle">
                     <div className="d-none d-sm-block d-md-block d-xs-block text-center">
                       <svg className="mt-5 roundtext svgText" viewBox="0 0 100 100" >
                         <defs>

@@ -39,6 +39,13 @@
 
   }
 }
+@media (min-width: 1200px){
+  .circle.col-xl-5 {
+      flex: 0 0 auto;
+      width: 36.666667%;
+  }
+}
+
 @media (max-width:770px){
   .roundtext{
       display:none;

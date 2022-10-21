@@ -11,17 +11,23 @@
 .pl-3, .px-3 {
   padding-left: 1rem!important;
 }
-.carrericon{
+/* .carrericon{
     background: #f75023;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%;
-}
+} */
 .carrer-icons{
   align-items: center;
   font-size: 24px;
   color: white;
   background-color: #f75023;
   border-radius: 50%;
+}
+.carrericon{
+  background: #f75023;
+  height: 80px;
+  width: 100px;
+  
 }

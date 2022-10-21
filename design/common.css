@@ -20,7 +20,11 @@
   font-family: LondrinaShadow;
   src: url(../Font/LondrinaShadow-Regular.ttf);
 }
-
+@media (min-width: 1200px){
+.col-xl-5 {
+    flex: 0 0 auto;
+    width: 35.666667%;
+}
 body{
   font-family: nexa-regular;
 }
@@ -88,4 +92,5 @@ body{
 }
 .text-purple{
   color: #4C436B;
+}
 }
