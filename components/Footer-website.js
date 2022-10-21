@@ -24,24 +24,3 @@ function FooterWebsite() {
 }
 
 export default FooterWebsite
-
-/*
-
-
-
-*/
-
-/*
-
-
-<div className='container'>
-        <div className='row'>
-        <div class="d-flex">
-        <div class="p-2 justify-content-start">
-        © {year} Vinayak Steel Furniture. All Rights Reserved
-        </div>
-        <div class="p-2 justify-content-end">Website Design and Developed By <spam> <a href="https://alvrio.io/">Alvrio Labs</a></spam></div>
-      </div>
-        </div>
-      </div>
-*/

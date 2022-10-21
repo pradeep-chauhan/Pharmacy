@@ -36,7 +36,7 @@ export default function Gallery() {
               {
                 images.map(({ picture }) => (
                   <div className="col-sm-6 col-xs-6 col-lg-3 col-xl-3 col-md-6 mt-3">
-                    <Image key={picture} src={picture} className="gallery-images card-img-top" />
+                    <Image key={picture} src={picture} className="gallery-images card-img-top img-fluid" />
                   </div>
                 ))
               }

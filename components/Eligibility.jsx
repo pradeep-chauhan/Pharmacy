@@ -34,8 +34,8 @@ function Eligibility() {
                     Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examination.
                   </li>
                 </ul> */}
-                   <div class="my-3" >
-                                      <div class="bullet-point-1">
+                   <div className="my-3" >
+                                      <div className="bullet-point-1">
                                         <ul>
                                           <li className="paragraph">Intermediate examination in Science</li>
                                           <li className="paragraph">The first year of the three year degree course in Science</li>
@@ -43,7 +43,7 @@ function Eligibility() {
                                         </ul>
                                           
                                       </div>
-                                      <div class="bullet-point-2">
+                                      <div className="bullet-point-2">
                                       <ul>
                                           <li className="paragraph">Pre-degree examination</li>
                                           <li className="paragraph"> Any other qualification approved by the Pharmacy Council of India as equivalent to any of the above examination.</li>

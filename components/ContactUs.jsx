@@ -33,7 +33,7 @@ function ContactUs() {
               <textarea type="text" onchange="umessage()" className="form-control" id="exampleInputMessage" rows="4"
                 required></textarea>
             </div>
-            <button type="submit" onclick="dataofuser()" className="btn buttoninfo  form-control">Send Message</button>
+            <button type="submit" onClick="dataofuser()" className="btn buttoninfo  form-control">Send Message</button>
           </form>
         </div>
       </div>

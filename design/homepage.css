@@ -104,3 +104,11 @@ a {
   color: white !important;
   font-weight: 400;
 }
+.heading{
+  font-family: 'Inter', sans-serif;
+  word-spacing:0px;
+  font-weight:700;
+  font-style:normal;
+  font-variant:normal;
+  font-size: 46px;
+}

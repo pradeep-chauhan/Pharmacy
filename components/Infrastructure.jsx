@@ -108,7 +108,6 @@ function Infrastructure() {
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
                     <div className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage  ">
-                      {/* <value.icon className={value.iconClass} /> */}
                       <Image src={value.icon} className="infrastructureimage " />
                     </div>
                     <div className="text pl-3">

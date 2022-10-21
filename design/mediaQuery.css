@@ -64,6 +64,9 @@
   .homepageheading1{
     font-size: 50px;
   }
+  .heading{
+    font-size: 32px;
+  }
 }
 
 @media (max-width:580px) {
