@@ -8,6 +8,10 @@ import Image3 from '../images/flasks.png'
 import Image4 from '../images/laboratory (1).png'
 import Image5 from '../images/microscope (3).png'
 import Image6 from '../images/book.png'
+import Image7 from '../images/board-meeting.png'
+import Image8 from '../images/classroom.png'
+import Image9 from '../images/gear.png'
+import Image10 from '../images/board-meeting.png'
 
 const offers = [
  
@@ -55,28 +59,28 @@ const offers = [
   },
   {
     "id": "7",
-    "icon": People,
+    "icon": Image7,
     "iconClass": "offer-icons",
     "heading": "Girls Common Room",
     "paragraph": "Designed to give female students a place to relax, study in free time available"
   },
   {
     "id": "8",
-    "icon": Laptop,
+    "icon": Image8,
     "iconClass": "offer-icons",
     "heading": "Classrooms",
     "paragraph": "Audio-Visual Technology-enabled class to facilitate smart learning"
   },
   {
     "id": "9",
-    "icon": Gear,
+    "icon": Image9,
     "iconClass": "offer-icons",
     "heading": "Machine Room",
     "paragraph": "Well Equipped Industrial Machine room to give a first-hand experience of the Industry"
   },
   {
     "id": "10",
-    "icon": People,
+    "icon": Image10,
     "iconClass": "offer-icons",
     "heading": "Boys Common Room",
     "paragraph": "Designed to give male students a place to relax, study in free time available"
@@ -103,7 +107,7 @@ function Infrastructure() {
               offers.map((value) => (
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
-                    <div className="icon mt-2 d-flex justify-content-center align-items-center offericon infrastructureimage">
+                    <div className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage">
                       {/* <value.icon className={value.iconClass} /> */}
                       <Image src={value.icon} className="infrastructureimage" />
                     </div>
