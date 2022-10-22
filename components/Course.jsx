@@ -21,7 +21,7 @@ function Course() {
                   </p>
                   <p className='course-paragraph'>The curriculum and syllabus for the programme are as per the Pharmacy Council of India (PCI) the statutory body governing pharmacy profession in India. In this programme students will gain insights into the chemical and physical properties chemical structure and uses of pharmaceutical formulae. The programme encompasses knowledge about the natural medicines which are obtained from plants animals marine and biological sources</p>
                   <p className='course-paragraph'>In addition the programme focuses on imparting knowledge about drugs used for different diseases dosage absorption mechanism of action drug action drug interaction adverse reaction. Candidates seeking advance knowledge in the discipline can apply for higher education
-</p>
+                  </p>
                 </div>
               </div>
             </div>

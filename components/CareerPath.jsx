@@ -59,9 +59,7 @@ function CareerPath() {
                   offers.map((value) => (
                     <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
                       <div className="services-3 d-flex">
-                        {/* <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon"> */}
                         <div className="icon mt-2 d-flex justify-content-center align-items-center ">
-                          {/* <value.icon className={value.iconClass} /> */}
                           <Image src={value.icon} className="img-fluid" />
                         </div>
                         <div className="text pl-3 mt-4">

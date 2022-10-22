@@ -39,22 +39,6 @@ function Testimonial() {
         </div>
         <div className="container">
           <div className="row course-gap">
-            {/* {
-              testimonies.map((value) => (
-                <div className="col-md-4 mb-5">
-                  <div className="card t5 testimonial-card">
-                    <div className="d-flex justify-content-center">
-                      <Image key={value.id} src={value.image} className="tm-people " />
-                    </div>
-                    <div className="card-body">
-                      <h5 className="card-title d-flex justify-content-center">{value.name}</h5>
-                      <h6 className="card-title d-flex justify-content-center">{value.branch}</h6>
-                      <p className="card-text d-flex justify-content-start">{value.paragraph}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-            } */}
             <div className="col-md-4 mb-4">
               <div className="card t5 testimonial-card">
                 <div className="d-flex justify-content-center">

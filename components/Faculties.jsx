@@ -39,22 +39,6 @@ function Faculties() {
             </div>
           </div>
           <div className='row'>
-
-            {/* {
-              facilitate.map((value) => (
-                <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12 ">
-                  <div className="card card-service  mx-2 my-1">
-                    <Image src={Image1} className='image-service' />
-                    <div className="card-body">
-                      <h4 className="sub-heading">{value.heading}</h4>
-                      <p className="paragraph">{value.paragraph}</p>
-                    </div>
-                  </div>
-                </div>
-              ))
-
-
-            } */}
             <div className="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-12">
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
@@ -91,7 +75,6 @@ function Faculties() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
       </section>
