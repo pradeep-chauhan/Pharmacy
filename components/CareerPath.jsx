@@ -62,17 +62,12 @@ function CareerPath() {
                         {/* <div className="icon mt-2 d-flex justify-content-center align-items-center carrericon"> */}
                         <div className="icon mt-2 d-flex justify-content-center align-items-center ">
                           {/* <value.icon className={value.iconClass} /> */}
-                          <Image src={value.icon} className="img-fluid"/>
+                          <Image src={value.icon} className="img-fluid" />
                         </div>
                         <div className="text pl-3 mt-4">
                           <h3 className="subheading text-white">{value.heading}</h3>
                         </div>
                       </div>
-                      {/* <div>
-                        <ul className='services-3 d-flex'>
-                          <li className='text-white'>{value.heading}</li>
-                        </ul>
-                      </div> */}
                     </div>
                   ))
                 }
