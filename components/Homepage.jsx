@@ -42,7 +42,7 @@ function Homepage() {
               </Nav>
               <div className="container  ">
 
-                <div className="row mx-2">
+                <div className="row mx-2 margin">
                   <div className="d-none d-sm-block d-md-block">
                     <Image src={Svg1} className='homepage-svg1' />
                     <Image src={Svg3} className='homepage-svg3' />
@@ -103,7 +103,7 @@ function Homepage() {
           </div>
         </div> */}
         <div className="icon-bar">
-          <a href="https://api.whatsapp.com/send?phone=919694985000" className="float whatsapp" target="_blank">
+          <a href="https://api.whatsapp.com/send?phone=918107973076" className="float whatsapp" target="_blank">
             <Whatsapp className='className="fa fa-whatsapp my-float"'></Whatsapp>
           </a>
         </div>

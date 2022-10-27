@@ -44,6 +44,12 @@
     margin-right: 0%;
 
   }
+  .buttonhidden{
+    display: none;
+  }
+  .home-background{
+    min-height: auto !important
+  }
 }
 @media (max-width:770px){
   .roundtext{
@@ -52,6 +58,8 @@
   .homepagesvg3 , .homepagesvg5{
     display:none;
 
+  }.buttonhidden{
+    display: none;
   }
 }
 @media (max-width:480px) {
@@ -60,9 +68,17 @@
   }
   .homepageheading{
     font-size: 48px;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
   }
   .homepageheading1{
     font-size: 50px;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
+  .margin{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
   }
   .heading{
     font-size: 32px;
@@ -80,6 +96,10 @@
   .info-top{
     margin-top: 0% !important;
   }
+  .navbar-brand{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+  }
 }
 
 @media (max-width:580px) {
@@ -91,6 +111,9 @@
 .bullet-point-2{
   float: none;
   width: 100%;
+}
+.buttonhidden{
+  display: none;
 }
 }
 

@@ -47,6 +47,7 @@ a {
   background-color: #4C436B;
   max-height: fit-content;
   /* min-height: 550px; */
+  min-height: auto !important;
 }
 
 .image-homepage {

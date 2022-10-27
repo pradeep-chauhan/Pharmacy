@@ -33,7 +33,7 @@ function Info() {
                             <div className="card-body">
                               <People className='fas fa-graduation-cap icon-info mt-3 mb-3' />
                               <h4 className="card-heading">Expert Teacher</h4>
-                              <p className="card-text">University of Gurukul Pharmacy is a leading modern university with a tradition of
+                              <p className="card-text">College of Gurukul Pharmacy is a leading modern college with a tradition of
                                 providing opportunity</p>
                             </div>
                           </div>
