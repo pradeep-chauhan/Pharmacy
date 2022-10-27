@@ -1,10 +1,8 @@
 import React from 'react'
-import Image from 'next/future/image';
-import Image1 from '../images/1611030245phpBxvmpI-removebg-preview.png'
+
 function Eligibility() {
   return (
     <>
-
       <section className="course section1 section-background-color">
         <div className="container">
           <div className="row">
@@ -12,7 +10,6 @@ function Eligibility() {
               <h2 className="mb-5 mt-5 text-center text-white heading"> Eligibility Criteria</h2>
             </div>
             <div className='row'>
-
               <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-sm-12 mb-5'>
                 <p className='sub-heading mb-1 text-white'>
                   Minimum qualification for admission to Diploma in Pharmacy Part-I course is to pass in any of the following examinations with Physics, Chemistry and Biology or Mathematics.
