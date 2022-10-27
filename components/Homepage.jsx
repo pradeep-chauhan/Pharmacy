@@ -95,13 +95,13 @@ function Homepage() {
             </div>
           </div>
         </div>
-        <div className="image-homepage2">
+        {/* <div className="image-homepage2">
           <div className="d-flex justify-content-center align-items-center">
             <div className="d-none d-sm-block d-md-block">
               <Image className="image-homepage3" src={Image1} />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="icon-bar">
           <a href="https://api.whatsapp.com/send?phone=919694985000" className="float whatsapp" target="_blank">
             <Whatsapp className='className="fa fa-whatsapp my-float"'></Whatsapp>

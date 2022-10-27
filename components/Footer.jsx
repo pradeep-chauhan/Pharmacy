@@ -25,7 +25,9 @@ function Footer() {
             <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12'>
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white">
                 <Map className="fa fa-map-marker contactIcon "></Map>
-                Plot No, 101-103, 100 Feet Rd, near Airport road <br></br> Udaipur, Rajasthan 313001
+                Gurukul College of Pharmacy
+                Village - Budal, Tehsil- Girwa, Udaipur, Rajasthan
+                {/* Plot No, 101-103, 100 Feet Rd, near Airport road <br></br> Udaipur, Rajasthan 313001 */}
               </p>
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white ">
                 <Phone className="fa fa-phone contactIcon"></Phone>
@@ -37,7 +39,7 @@ function Footer() {
               </p>
             </div>
             <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 mb-4'>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.519905876953!2d73.80689775016938!3d24.605759684097034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e760b733ed27%3A0x6a295f012d92ec1f!2sAlvrio%20Labs!5e0!3m2!1sen!2sin!4v1663225453049!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.519905876953!2d73.80689775016938!3d24.605759684097034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e760b733ed27%3A0x6a295f012d92ec1f!2sAlvrio%20Labs!5e0!3m2!1sen!2sin!4v1663225453049!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>
