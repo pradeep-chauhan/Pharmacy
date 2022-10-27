@@ -5,6 +5,25 @@ import axios from 'axios';
 import Contact from '../images/contact-img.svg'
 function ContactUs() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
+  // async function onSubmit(values) {
+  //   let config = {
+  //     method: "post",
+  //     url: 'http://localhost:3000/api/contact',
+  //     headers: { "Content-Type": "application/json" },
+  //     data: values
+  //   };
+  //   alert("")
+  //   try {
+  //     const response = await axios(config)
+  //     console.log(response)
+  //     if (response.data.status == 200) {
+  //       console.log('success')
+  //     }
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+
+
   async function onSubmit(values) {
     let config = {
       method: "post",
@@ -12,15 +31,9 @@ function ContactUs() {
       headers: { "Content-Type": "application/json" },
       data: values
     };
-    try {
-      const response = await axios(config)
-      console.log(response)
-      if (response.data.status == 200) {
-        console.log('success')
-      }
-    } catch (error) {
-      console.log(error)
-    }
+    alert("We will get back to you shortly")
+  
+    
 
 
   }
