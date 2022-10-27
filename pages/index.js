@@ -17,6 +17,7 @@ import Committees from '../components/Committees'
 import Course from '../components/Course'
 import Eligibility from '../components/Eligibility'
 import FooterWebsite from '../components/Footer-website'
+import Vision from '../components/Vision'
 export default function Home() {
   return (
     <div >
@@ -31,7 +32,12 @@ export default function Home() {
       {/* <Category /> */}
       <Course />
       <Eligibility />
+<<<<<<< Updated upstream
       <Faculties />
+=======
+      {/* <Faculties /> */}
+      <Vision />
+>>>>>>> Stashed changes
       <Committees />
       <CareerPath />
       <Gallery />
