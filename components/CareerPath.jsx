@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/future/image'
 import Image1 from '../images/In progress-pana.svg'
-import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 import Image2 from '../images/pharmacist (1).png'
 import Image3 from '../images/pharmacist (3).png'
 import Image4 from '../images/pharmacist (4).png'

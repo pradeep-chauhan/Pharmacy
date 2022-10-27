@@ -32,7 +32,6 @@ export default function Home() {
       <Homepage />
       {/* <WhyUs /> */}
       <Info />
-     
       <Infrastructure />
       <Course />
       <Eligibility />
@@ -44,15 +43,7 @@ export default function Home() {
       <ContactUs />
       <Footer />
       <FooterWebsite />
-      {/*
-  
-      
-      
-      */}
 
-      
-      {/* <Offer /> */} 
-      {/* <Category /> */}
     </div>
   )
 }

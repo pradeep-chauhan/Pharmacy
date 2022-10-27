@@ -26,7 +26,7 @@ function Footer() {
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white">
                 <Map className="fa fa-map-marker contactIcon "></Map>
                 Gurukul College of Pharmacy
-                Village - Budal, Tehsil- Girwa, Udaipur, Rajasthan
+                Village - Budal, Tehsil- Girwa, Udaipur, Rajasthan 313703
                 {/* Plot No, 101-103, 100 Feet Rd, near Airport road <br></br> Udaipur, Rajasthan 313001 */}
               </p>
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white ">

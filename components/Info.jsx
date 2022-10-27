@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/future/image'
 import Svg1 from '../images/semicircle(1).png'
 import Svg2 from '../images/zigzag-lines-in-side-view-position.png'
-import { People, Award,Book , JournalMedical} from 'react-bootstrap-icons'
+import { People, Award, Book, JournalMedical } from 'react-bootstrap-icons'
 function Info() {
   return (
     <>
@@ -62,8 +62,7 @@ function Info() {
                               <JournalMedical className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
                               <i className="fas fa-diagnoses"></i>
                               <h4 className="card-heading">Well Occupied Lab</h4>
-                              <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
-                                available to help you</p>
+                              <p className="card-text">Well-designed laboratories not only make experiments fun but also help students in achieving good academic knowledge</p>
                             </div>
                           </div>
                         </div>
