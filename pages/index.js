@@ -30,17 +30,17 @@ export default function Home() {
         <title>Gurukul Pharmacy</title>
       </Head>
       <Homepage />
-      <WhyUs />
+      {/* <WhyUs /> */}
       <Info />
      
       <Infrastructure />
       <Course />
       <Eligibility />
-      <Faculties />
+      {/* <Faculties /> */}
       <Committees />
       <CareerPath />
-      <Gallery />
-      <Testimonial />
+      {/* <Gallery />
+      <Testimonial /> */}
       <ContactUs />
       <Footer />
       <FooterWebsite />

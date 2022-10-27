@@ -85,10 +85,10 @@ function Homepage() {
                     <div>
                       <p className="mt-3 paragraphhomepage">Gurukul College of Pharmacy managed by Nahar Singh mata Jan vikas sanasthan. The college is endowed with excellent infrastructure, state of the art laboratories and a team of dedicated faculty members with affluent research interests. </p>
                     </div>
-                    <div className="mt-3">
+                    {/* <div className="mt-3">
                       <button type="button" className="btn button btn-light p-3  ">Play Video </button>
 
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

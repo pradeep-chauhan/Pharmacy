@@ -43,8 +43,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
-                  <p className="paragraph text-center">Pharmaceutics</p>
+                  <h4 className="sub-heading text-center">Diwakar Mali</h4>
+                  <p className="paragraph text-center">Director</p>
                 </div>
               </div>
             </div>
@@ -52,8 +52,8 @@ function Faculties() {
               <div className="card card-service  mx-2 my-1">
                 <Image src={Image1} className='image-service' />
                 <div className="card-body">
-                  <h4 className="sub-heading text-center">Dr. Dhanraj Patidar</h4>
-                  <p className="paragraph text-center">Pharmaceutics</p>
+                  <h4 className="sub-heading text-center">Ms Rituraj Gaur </h4>
+                  <p className="paragraph text-center">Principal</p>
                 </div>
               </div>
             </div>
