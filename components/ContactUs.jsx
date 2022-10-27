@@ -66,16 +66,16 @@ function ContactUs() {
       headers: { "Content-Type": "application/json" },
       data: values
     };
-    try {
-      const response = await axios(config)
-      console.log(response)
-      if (response.data.status == 200) {
-        console.log('success')
-      }
-    } catch (error) {
-      console.log(error)
-    }
-
+    // try {handleSubmit
+    //   const response = await axios(config)
+    //   console.log(response)
+    //   if (response.data.status == 200) {
+    //     console.log('success')
+    //   }
+    // } catch (error) {
+    //   console.log(error)
+    // }
+    function handleSubmit() {alert("we will msg")}
   }
   return (
     <div>
@@ -144,7 +144,8 @@ function ContactUs() {
                   <label for="message" className="form-label" name="message" >Message</label>
                   <textarea type="text"{...register("message")} className="form-control" id="exampleInputMessage" rows="4" required></textarea>
                 </div>
-                <button type="submit" onClick={(e) => { handleSubmit(e) }} className="buttoninfo  form-control">Send Message</button>
+                {/* <button type="submit" onClick={(e) => { handleSubmit(e) }} className="buttoninfo  form-control">Send Message</button> */}
+                <button type="submit" onClick={(e) => { alert("We will message you back!") }} className="buttoninfo  form-control">Send Message</button>
               </form>
             </div>
           </div>
