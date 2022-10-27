@@ -1,6 +1,4 @@
 import React from 'react'
-import Icon from 'react'
-import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 import Image from 'next/future/image';
 import Image1 from '../images/flask (5).png'
 import Image2 from '../images/microscope (2).png'
@@ -102,7 +100,6 @@ function Infrastructure() {
             </div>
           </div>
           <div className="row mt-5">
-
             {
               offers.map((value) => (
                 <div className="col-lg-6">
