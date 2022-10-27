@@ -46,7 +46,7 @@ a {
 .home-background {
   background-color: #4C436B;
   max-height: fit-content;
-  min-height: 550px;
+  /* min-height: 550px; */
 }
 
 .image-homepage {
