@@ -22,8 +22,9 @@ export default function Home() {
   return (
     <div >
       <Head>
-        <meta title="Gurukul Pharmacy" content="Gurukul pharmacy college work right at the heart of human healthcare, taking on  roles relating to the design and development of new treatments, prescription and care management, and advising on the range of medical options as well and also provides lots of courses which helps grow higher in life and courses such as D-pharma.Pharm D or Doctor of Pharmacy is a professional degree in pharmacy stream. Gurukul Pharmacy Pharm D course duration is six years in total inclusive of 5 years of learning and one year of internship for practical learning. The only doctoral degree that can be pursued right after passing 10+2 qualifying examinations."/> 
-        <meta keywords="Pharmacy college, Udaipur Pharmacy College, Best Pharmacy College, Apothecary,Pharmacopoeia, Best Pharmacy College in Udaipur, Best Pharmacy College in Rajasthan,Best Udaipur College,Udaipur best pharmacy college,Gurukul Pharmacy College"/>
+        <meta name="title" content="Gurukul Pharmacy | Pharmacy College"></meta>
+        <meta name="decription" content="Gurukul pharmacy college work right at the heart of human healthcare, taking on  roles relating to the design and development of new treatments, prescription and care management, and advising on the range of medical options as well and also provides lots of courses which helps grow higher in life and courses such as D-pharma.Pharm D or Doctor of Pharmacy is a professional degree in pharmacy stream. Gurukul Pharmacy Pharm D course duration is six years in total inclusive of 5 years of learning and one year of internship for practical learning. The only doctoral degree that can be pursued right after passing 10+2 qualifying examinations." key="desc"/> 
+        <meta name='keywords' content="Pharmacy college, Udaipur Pharmacy College, Best Pharmacy College, Apothecary,Pharmacopoeia, Best Pharmacy College in Udaipur, Best Pharmacy College in Rajasthan,Best Udaipur College,Udaipur best pharmacy college,Gurukul Pharmacy College"/>
 
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />

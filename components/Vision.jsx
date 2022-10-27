@@ -23,7 +23,7 @@ function Vision() {
               Indian Pharmaceutical Industries are rapidly growing sector which stand the third largest industries among the world in drug manufacturing. Students should have the basic knowledgeabout the drug, its manufacturing, and its uses in different area. Proper knowledge of medicinemakes our community healthier which is very important for the growthof our country, So many students of this College giving their services in reputed pharmaceutical industry as well as in government sector. I wish good luck to all the student’s and hope for their bright future.
               </p>
               <h4 className="sub-heading">Ms Rituraj Gaur </h4>
-                  <p className="paragraph">Principal</p>
+                  <p className="paragraph">Principal, M Pharm ( Pharmaceutics )</p>
             </div>
           </div>
         </div>
