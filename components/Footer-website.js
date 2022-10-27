@@ -9,7 +9,7 @@ function FooterWebsite() {
       <div className="container ">
           <div className="row">
             <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-3 mb-2 ">
-              © {year} Gurukul College of Pharmacy. All Rights Reserved
+             <p> © {year} Gurukul College of Pharmacy. All Rights Reserved</p>
             </div>
 
             <div className="col-12 col-md-4 col-sm-12 col-xs-12 mt-3 mb-2  ">
