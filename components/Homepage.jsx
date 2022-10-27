@@ -10,7 +10,7 @@ import Svg3 from '../images/star2.png'
 function Homepage() {
   return (
     <div>
-      <section className="home section1" id='home'>
+      <section className="home section-margin" id='home'>
         <div className="container-fluid">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
@@ -47,16 +47,14 @@ function Homepage() {
                     <Image src={Svg1} className='homepage-svg1' />
                     <Image src={Svg3} className='homepage-svg3' />
                   </div>
-                  <h1 className=" mt-5 homepageheading">Best Pharma</h1>
+                  <h1 className=" mt-5 heading-home">Best Pharma</h1>
 
-                  <h1 className=" mt-2 ms-1  homepageheading1">Education</h1>
-                  <h1 className="mt-4  homepageheading">Solution</h1>
+                  <h1 className=" mt-2 ms-1  heading-home-1">Education</h1>
+                  <h1 className="mt-4  heading-home">Solution</h1>
                 </div>
                 <div className="mt-3 mx-2">
-                  <button type="button" className="btn button button-homepage">Get Started</button>
-
+                  <button type="button" className="btn button button-homepage"><a href="#contactus" className="button-homepage">Contact Us</a></button>
                 </div>
-
               </div>
               <div className="d-none d-sm-block d-md-block ">
                 <Image className="homepage-svg2" src={Svg2} />
@@ -73,7 +71,6 @@ function Homepage() {
                         </defs>
                         <text class="round-text">
                           <textPath xlinkHref="#circle">
-                            {/* Gurukul Pharmacy Education */}
                             Gurukul Pharma College
                           </textPath>
                         </text>

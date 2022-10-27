@@ -79,7 +79,7 @@ const Category = () => {
 
   return (
     <>
-      <section className="courses section1">
+      <section className="courses section-margin">
         <div className="container">
           <div className="row">
             <div className="col text-courses mx-auto text-center">

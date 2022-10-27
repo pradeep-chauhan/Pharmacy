@@ -24,7 +24,7 @@ export default function Gallery() {
   
   return (
     <>
-      <section className="gallery section1" id='gallery'>
+      <section className="gallery section-margin" id='gallery'>
         <div>
           <div className="container">
             <h2 className="text-center mb-5 text-center heading">

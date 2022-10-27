@@ -36,7 +36,7 @@ const offers = [
 function CareerPath() {
   return (
     <>
-      <section className='section1 section-background-color'>
+      <section className='section-margin section-background-color'>
         <div className="container">
           <div className='row text-center mb-5'>
             <div className="row text-center mt-5">

@@ -29,7 +29,7 @@ const testimonies = [
 function Testimonial() {
   return (
     <>
-      <section className="section1 testimonial-area section-background-color">
+      <section className="section-margin testimonial-area section-background-color">
         <div className="container ">
           <div className="row text-center ">
             <h1 className="mb-5 text-center heading mt-5 text-white">Testimonials</h1>

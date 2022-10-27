@@ -31,7 +31,7 @@ const facilitate = [
 function Faculties() {
   return (
     <>
-      <section className="faculties section1 section-background-color">
+      <section className="faculties section-margin section-background-color">
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">

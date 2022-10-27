@@ -28,7 +28,7 @@ const aboutUsData = [
 function WhyUs() {
   return (
     <>
-      <section className="whyus section1">
+      <section className="whyus section-margin">
         <div className="container">
           <div className="row course-gap">
             {

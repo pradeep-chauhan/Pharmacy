@@ -14,7 +14,7 @@ a {
 }
 
 /*homepage*/
-.homepageheading {
+.heading-home {
   font-family: nexa-regular;
   line-height: 49.6px;
   line-break: auto;
@@ -26,7 +26,7 @@ a {
   font-variant: normal;
 }
 
-.homepageheading1 {
+.heading-home-1 {
   font-family: LondrinaShadow;
   line-height: 45.6px;
   line-break: auto;
@@ -39,7 +39,7 @@ a {
 }
 
 .button-homepage {
-  background-color: #F96438 !important;
+  background-color: #4C436B !important;
   color: white;
 }
 

@@ -74,7 +74,9 @@ body{
   margin-bottom: 7%;
   /* margin-top: 7%; */
 }
-
+.section-margin{
+  margin-bottom: 7%;
+}
 .hr-border {
   border: 1px solid #D3D3D3;
 }

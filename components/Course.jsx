@@ -4,7 +4,7 @@ import Image1 from '../images/image__2_-removebg-preview.png'
 function Course() {
   return (
     <>
-      <section className="course section1" id='aboutUs'>
+      <section className="course section-margin" id='aboutUs'>
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">

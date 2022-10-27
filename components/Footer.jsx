@@ -4,7 +4,7 @@ import { Map, Phone, Envelope } from 'react-bootstrap-icons';
 function Footer() {
   return (
     <>
-      <section className="footer-website section1 section-background-color">
+      <section className="footer-website section-margin section-background-color">
         <hr className="hr-border" />
         <div className="container">
           <div className="row mt-5">
