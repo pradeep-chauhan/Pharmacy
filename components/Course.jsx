@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/future/image';
 // import Image1 from '../images/imageedit_2_8033402508-removebg-preview.png'
-import Image1 from '../images/image-removebg-preview.png'
+import Image1 from '../images/image__3_-removebg-preview.png'
 function Course() {
   return (
     <>
@@ -13,10 +13,10 @@ function Course() {
             </div>
             <div className=''>
               <div className='row'>
-                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sm-12 mb-4'>
+                <div className='col-xl-5 col-lg-5 col-md-12 col-sm-12 col-sm-12 mb-4'>
                   <Image className="img-fluid " src={Image1} />
                 </div>
-                <div className='col-xl-6 col-lg-6 col-md-12 col-sm-12 col-sm-12'>
+                <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12 col-sm-12'>
                   <p className='course-paragraph'>
                     Diploma in Pharmacy (D.Pharma) is a two-year academic programme streamlined to endow in-depth knowledge of science and technique behind the formulation of pharmacy practice and medicines management. The programme fundamentally provides an overview of the conjecture principles and practices implicated in the science of pharmacy including core subjects like Pharmaceutical Chemistry Pharmacognosy Pharmacology and Pharmaceutics.
                   </p>
