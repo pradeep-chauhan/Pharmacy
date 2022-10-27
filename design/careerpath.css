@@ -1,23 +1,16 @@
-.services-3 .icon {
+.career-path  .icon {
   line-height: 1;
   position: relative;
   width: 60px;
   height: 60px;
 }
 
-.services-3 {
+.career-path  {
   margin-bottom: 30px;
 }
 .pl-3, .px-3 {
   padding-left: 1rem!important;
 }
-/* .carrericon{
-    background: #f75023;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-} */
 .carrer-icons{
   align-items: center;
   font-size: 24px;
@@ -29,5 +22,4 @@
   background: #f75023;
   height: 80px;
   width: 100px;
-  
 }

@@ -13,21 +13,18 @@ const offers = [
     "icon": Image2,
     "iconClass": "carrer-icons",
     "heading": "Pharmacist",
-
   },
   {
     "id": "2",
     "icon": Image3,
     "iconClass": "carrer-icons",
     "heading": "Scientific Officer",
-
   },
   {
     "id": "3",
     "icon": Image4,
     "iconClass": "carrer-icons",
     "heading": "Quality Analyst",
-
   },
   {
     "id": "4",
@@ -57,7 +54,7 @@ function CareerPath() {
                 {
                   offers.map((value) => (
                     <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
-                      <div className="services-3 d-flex">
+                      <div className="career-path d-flex">
                         <div itemProp='image' className="icon mt-2 d-flex justify-content-center align-items-center ">
                           <Image src={value.icon} className="img-fluid" />
                         </div>
