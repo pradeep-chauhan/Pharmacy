@@ -52,12 +52,12 @@ function ContactUs() {
       <section className="form" id='contactus' onSubmit={handleSubmit(onSubmit)}>
         <div className="container">
           <div className="row">
-            <div className="col-md-6 ">
+            <div itemProp='image' className="col-md-6 ">
               <Image src={Contact} className='image-contactus' />
 
             </div>
             <div className="col-md-6">
-              <h2>Contact Us</h2>
+              <h2 itemProp='name'>Contact Us</h2>
               <p>To request a quote or want to meet up for coffee, contact us directly or fill out the form and we will get back to you promptly</p>
 
               <form className="form-info">

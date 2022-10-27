@@ -43,13 +43,13 @@ function CareerPath() {
         <div className="container">
           <div className='row text-center mb-5'>
             <div className="row text-center mt-5">
-              <h1 className="mb-5 text-center heading text-white">Career path</h1>
-              <p className="paragraph mb-4 text-white">Career path you can choose after the course
+              <h1 itemprop="name" className="mb-5 text-center heading text-white">Career path</h1>
+              <p itemProp='decriptiion' className="paragraph mb-4 text-white">Career path you can choose after the course
               </p>
             </div>
           </div>
           <div className='row'>
-            <div className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12'>
+            <div itemProp='image' className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12'>
               <Image className="img-fluid" src={Image1} />
             </div>
             <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 mb-5'>
@@ -58,7 +58,7 @@ function CareerPath() {
                   offers.map((value) => (
                     <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
                       <div className="services-3 d-flex">
-                        <div className="icon mt-2 d-flex justify-content-center align-items-center ">
+                        <div itemProp='image' className="icon mt-2 d-flex justify-content-center align-items-center ">
                           <Image src={value.icon} className="img-fluid" />
                         </div>
                         <div className="text pl-3 mt-4">

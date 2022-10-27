@@ -10,15 +10,15 @@ function Info() {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-xs-12 col-md-5 col-lg-5 col-xl-5 ">
-              <div className="mt-5 info-top">
+              <div itemProp='image' className="mt-5 info-top">
                 <Image src={Svg1} className="homepagesvg3" />
-                <h1>Reason to choose Gurukul Pharmacy</h1>
-                <p className="paragraph">Along with lessons, answers, study resources, grade assignments, feedback and one-to-one
+                <h1 itemProp='genre'>Reason to choose Gurukul Pharmacy</h1>
+                <p itemProp='description' className="paragraph">Along with lessons, answers, study resources, grade assignments, feedback and one-to-one
                   attention, The
                   experienced tutors at Learning Space also extend their support in writing.</p>
               </div>
               <button type="button" className="buttoninfo">Explore Now</button>
-              <div className="d-none d-sm-block d-md-block  ">
+              <div itemProp='image' className="d-none d-sm-block d-md-block  ">
                 <Image src={Svg2} className="homepagesvg5" />
               </div>
             </div>
@@ -32,8 +32,8 @@ function Info() {
                           <div className="card card5 card6">
                             <div className="card-body">
                               <People className='fas fa-graduation-cap icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Expert Teacher</h4>
-                              <p className="card-text">College of Gurukul Pharmacy is a leading modern college with a tradition of
+                              <h4 itemProp='genre' className="card-heading">Expert Teacher</h4>
+                              <p itemProp='desciption' className="card-text">College of Gurukul Pharmacy is a leading modern college with a tradition of
                                 providing opportunity</p>
                             </div>
                           </div>
@@ -42,8 +42,8 @@ function Info() {
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Award className='fa fa-graduation-cap icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Full bright Scholarship</h4>
-                              <p className="card-text">Under the able tutelage of our dedicated scholarly professionals always
+                              <h4 itemProp='genre' className="card-heading">Full bright Scholarship</h4>
+                              <p itemProp='description' className="card-text">Under the able tutelage of our dedicated scholarly professionals always
                                 available to help you</p>
                             </div>
                           </div>
@@ -58,11 +58,11 @@ function Info() {
                       <div className="row">
                         <div className="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 card3 card5 mb-3 info-card">
                           <div className="card card5 card6">
-                            <div className="card-body">
+                            <div itemProp='icon' className="card-body">
                               <JournalMedical className='fas fa-graduation-cap   icon-info mt-3 mb-3' />
                               <i className="fas fa-diagnoses"></i>
-                              <h4 className="card-heading">Well Occupied Lab</h4>
-                              <p className="card-text">Well-designed laboratories not only make experiments fun but also help students in achieving good academic knowledge</p>
+                              <h4 itemProp='genre' className="card-heading">Well Occupied Lab</h4>
+                              <p itemProp='description' className="card-text">Well-designed laboratories not only make experiments fun but also help students in achieving good academic knowledge</p>
                             </div>
                           </div>
                         </div>
@@ -70,8 +70,8 @@ function Info() {
                           <div className="card card5 card6">
                             <div className="card-body">
                               <Book className='fas fa-graduation-cap icon-info mt-3 mb-3' />
-                              <h4 className="card-heading">Library</h4>
-                              <p className="card-text">The institute have a very good Library with many Reference, Text Books and Computer Facilities</p>
+                              <h4 itemProp='genre' className="card-heading">Library</h4>
+                              <p itemProp='description' className="card-text">The institute have a very good Library with many Reference, Text Books and Computer Facilities</p>
                             </div>
                           </div>
                         </div>

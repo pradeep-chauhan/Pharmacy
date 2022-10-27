@@ -31,7 +31,7 @@ function Committees() {
         <div className='container'>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h2 className="mb-5 text-center heading"> Committees</h2>
+              <h2 itemProp='name' className="mb-5 text-center heading"> Committees</h2>
             </div>
           </div>
           <div className='row'>
@@ -40,8 +40,8 @@ function Committees() {
                 <div className="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div className="card card-service  mx-2 my-2">
                     <div className="card-body ">
-                      <h5 className="sub-heading my-3">{value.heading}</h5>
-                      <p className="subparagraph">{value.paragraph}</p>
+                      <h5 itemProp='heading' className="sub-heading my-3">{value.heading}</h5>
+                      <p itemProp='description' className="subparagraph">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>
