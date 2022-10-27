@@ -9,11 +9,9 @@
   background-color: #4C436B;
   color: white;
   font-variant:normal;
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
 }
 .icon-info{
- 
   background-color: #4C436B;
   padding: 3.1%;
   color: white;
@@ -25,12 +23,6 @@
   border-top-left-radius: 250px;
   border-bottom-left-radius: 250px;
   background-color: #FFE7D9 !important;
-  /*
-  box-shadow: 0 0 0 100vmax orange;
-  clip-path: inset(0 -100vmax) !important;
-  -webkit-clip-path: inset(0 -100vmax) !important;
-  clip-path: circle(350px at right);
-*/
 }
 .backgroundcircle{
  

@@ -144,7 +144,7 @@ function ContactUs() {
                   <label for="message" className="form-label" name="message" >Message</label>
                   <textarea type="text"{...register("message")} className="form-control" id="exampleInputMessage" rows="4" required></textarea>
                 </div>
-                <button type="submit" onClick={(e) => { handleSubmit(e) }} className="btn buttoninfo  form-control">Send Message</button>
+                <button type="submit" onClick={(e) => { handleSubmit(e) }} className="buttoninfo  form-control">Send Message</button>
               </form>
             </div>
           </div>
