@@ -31,15 +31,16 @@ function Footer() {
               </p>
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white ">
                 <Phone className="fa fa-phone contactIcon"></Phone>
-                <a href="tel:+918107973076" className="text-white">+91 8107973076</a>
+                <a href="tel:+918107973076" className="text-white">+91-8107973076</a>
               </p>
               <p className='inline d-flex justify-content-start contact-us-paragraph text-white mb-5'>
                 <Envelope className='contactIcon '> </Envelope>
-                <a href="" className="text-white"> abc@gmail.com </a>
+                <a href="mailto:gurukulcollegepharmacy@gmail.com" className="text-white"> gurukulcollegepharmacy@gmail.com </a>
               </p>
             </div>
             <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 mb-4'>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.519905876953!2d73.80689775016938!3d24.605759684097034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e760b733ed27%3A0x6a295f012d92ec1f!2sAlvrio%20Labs!5e0!3m2!1sen!2sin!4v1663225453049!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+              {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3627.519905876953!2d73.80689775016938!3d24.605759684097034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e760b733ed27%3A0x6a295f012d92ec1f!2sAlvrio%20Labs!5e0!3m2!1sen!2sin!4v1663225453049!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe> */}
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14529.2940673613!2d73.925506!3d24.4395586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967c0c89381f373%3A0x3d61c5ac06b2bf9a!2sThe%20Gurukul%20college%20%26%20School!5e0!3m2!1sen!2sin!4v1666853344782!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
         </div>

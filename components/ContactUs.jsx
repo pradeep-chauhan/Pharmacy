@@ -56,7 +56,7 @@ import { useForm } from 'react-hook-form'
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import axios from 'axios';
-import Contact from '../images/contactus.svg'
+import Contact from '../images/contact-img.svg'
 function ContactUs() {
   const { register, handleSubmit, formState: { errors }, reset } = useForm();
   async function onSubmit(values) {
