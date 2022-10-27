@@ -34,7 +34,7 @@ function Homepage() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#gallery">Gallery</a>
+                        <a className="nav-link nav-bold mx-2" href="#contactus">Contact</a>
                       </li>
                     </ul>
                   </div>
