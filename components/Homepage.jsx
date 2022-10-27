@@ -34,7 +34,7 @@ function Homepage() {
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-1" href="#contactus">ContactUs</a>
+                        <a className="nav-link nav-bold mx-1" href="#contactus">Contact Us</a>
                       </li>
                     </ul>
                   </div>
@@ -73,7 +73,8 @@ function Homepage() {
                         </defs>
                         <text class="round-text">
                           <textPath xlinkHref="#circle">
-                            Gurukul Pharmacy Education
+                            {/* Gurukul Pharmacy Education */}
+                            Gurukul Pharma College
                           </textPath>
                         </text>
                       </svg>

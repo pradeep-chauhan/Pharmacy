@@ -1,60 +1,6 @@
-// import React from 'react'
-// import Image from 'next/future/image'
-// import Image1 from '../images/contactus.svg'
-// import axios from 'axios';
-
-// function ContactUs() {
-//   return (
-//     <>
-//     <section className="form section1">
-//     <div className="container">
-//       <div className="row">
-//         <div className="col-md-6 ">
-//           <Image src={Image1} className='image-contactus' />
-
-//         </div>
-//         <div className="col-md-6">
-//           <h2 className="heading-text">Let's talk</h2>
-//           <p>To request a quote or want to meet up for coffee, contact us directly or fill out the form and we will get
-//             back to you promptly</p>
-
-//           <form className="form-info">
-//             <div className="mb-3">
-//               <label for="exampleInputName" className="form-label">Name</label>
-//               <input type="text" value="" onchange="uname()" className="form-control" id="exampleInputName"
-//                 aria-describedby="NameHelp" required />
-//             </div>
-//             <div className="mb-3">
-//               <label for="exampleInputEmail1" className="form-label">Email address</label>
-//               <input type="email" className="form-control" value="" onchange="uemail()" id="exampleInputEmail1"
-//                 aria-describedby="emailHelp" required />
-//             </div>
-
-//             <div className="mb-3">
-//               <label for="message" className="form-label">Message</label>
-//               <textarea type="text" onchange="umessage()" className="form-control" id="exampleInputMessage" rows="4"
-//                 required></textarea>
-//             </div>
-//             <button type="submit" onClick="dataofuser()" className="btn buttoninfo  form-control">Send Message</button>
-//           </form>
-//         </div>
-//       </div>
-
-//     </div>
-//   </section>
-//     </>
-//   )
-// }
-
-// export default ContactUs
-
-
-
 import Image from 'next/future/image'
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
 import axios from 'axios';
 import Contact from '../images/contact-img.svg'
 function ContactUs() {
@@ -66,17 +12,28 @@ function ContactUs() {
       headers: { "Content-Type": "application/json" },
       data: values
     };
-    // try {handleSubmit
-    //   const response = await axios(config)
-    //   console.log(response)
-    //   if (response.data.status == 200) {
-    //     console.log('success')
-    //   }
-    // } catch (error) {
-    //   console.log(error)
-    // }
-    function handleSubmit() {alert("we will msg")}
+    try {
+      const response = await axios(config)
+      console.log(response)
+      if (response.data.status == 200) {
+        console.log('success')
+      }
+    } catch (error) {
+      console.log(error)
+    }
+
+
   }
+  //   function submitHandler() {
+  //     if (!field) {
+  //       setError(true);
+  //       return null;
+  //     }
+  //       return alert("We will get back to you shortly")
+  // }
+  // function submitHandler() {
+  //   return alert("We will get back to you shortly")
+  // }
   return (
     <div>
       <section className="form" id='contactus' onSubmit={handleSubmit(onSubmit)}>
@@ -144,8 +101,8 @@ function ContactUs() {
                   <label for="message" className="form-label" name="message" >Message</label>
                   <textarea type="text"{...register("message")} className="form-control" id="exampleInputMessage" rows="4" required></textarea>
                 </div>
-                {/* <button type="submit" onClick={(e) => { handleSubmit(e) }} className="buttoninfo  form-control">Send Message</button> */}
-                <button type="submit" onClick={(e) => { alert("We will message you back!") }} className="buttoninfo  form-control">Send Message</button>
+                <button type="submit" onClick={(e) => { handleSubmit(e) }} className="buttoninfo  form-control">Send Message</button>
+                {/* <button type="submit" onClick={submitHandler} className="buttoninfo  form-control">Send Message</button> */}
               </form>
             </div>
           </div>
