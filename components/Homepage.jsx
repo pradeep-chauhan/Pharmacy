@@ -24,17 +24,17 @@ function Homepage() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mx-auto">
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2 active" aria-current="page" href="#home">Home</a>
+                        <a className="nav-link nav-bold mx-1 active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#aboutUs">AboutUs</a>
+                        <a className="nav-link nav-bold mx-1" href="#aboutUs">About Us</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#committees">Committees
+                        <a className="nav-link nav-bold mx-1" href="#committees">Committees
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-2" href="#contactus">Contact</a>
+                        <a className="nav-link nav-bold mx-1" href="#contactus">ContactUs</a>
                       </li>
                     </ul>
                   </div>
