@@ -1,6 +1,5 @@
 import React from 'react'
 import Image from 'next/future/image'
-import { Container } from 'react-bootstrap';
 import Image1 from '../images/whyUs1.jpg'
 import Image2 from '../images/whyUs2.jpg'
 import Image3 from '../images/whyUs3.jpeg'
