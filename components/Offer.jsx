@@ -64,7 +64,6 @@ function Offer() {
             </div>
           </div>
           <div className="row mt-5">
-
             {
               offers.map((value) => (
                 <div className="col-lg-6">
