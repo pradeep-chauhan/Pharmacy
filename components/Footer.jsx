@@ -9,8 +9,8 @@ function Footer() {
         <div className="container">
           <div className="row mt-5">
             <div className="col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12">
-              <h4 className="mb-4 text-white">Gurukul Pharmacy</h4>
-              <p className="footer-para d-flex justify-content-start text-justify text-white">The opportunities and support provided are
+              <h4 className="mb-4 text-white" itemProp='name'>Gurukul Pharmacy</h4>
+              <p className="footer-para d-flex justify-content-start text-justify text-white" itemProp='description' >The opportunities and support provided are
                 endless. If you believe in yourself and work
                 hard, you can go the distance.
               </p>
@@ -23,18 +23,18 @@ function Footer() {
               <br />
             </div>
             <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12'>
-              <p className="inline d-flex justify-content-start contact-us-paragraph text-white">
+              <p className="inline d-flex justify-content-start contact-us-paragraph text-white" itemProp='address'>
                 <Map className="fa fa-map-marker contactIcon "></Map>
                 Gurukul College of Pharmacy
                 Village - Budal, Tehsil- Girwa, Udaipur, Rajasthan 313703
               </p>
               <p className="inline d-flex justify-content-start contact-us-paragraph text-white ">
-                <Phone className="fa fa-phone contactIcon"></Phone>
-                <a href="tel:+918107973076" className="text-white">+91-8107973076</a>
+                <Phone className="fa fa-phone contactIcon" ></Phone>
+                <a href="tel:+918107973076" className="text-white" itemProp='number'>+91-8107973076</a>
               </p>
               <p className='inline d-flex justify-content-start contact-us-paragraph text-white mb-5'>
                 <Envelope className='contactIcon '> </Envelope>
-                <a href="mailto:gurukulcollegepharmacy@gmail.com" className="text-white"> gurukulcollegepharmacy@gmail.com </a>
+                <a href="mailto:gurukulcollegepharmacy@gmail.com" className="text-white" itemProp='email'> gurukulcollegepharmacy@gmail.com </a>
               </p>
             </div>
             <div className='col-lg-4 col-xl-4 col-md-4 col-sm-12 col-xs-12 mb-4'>

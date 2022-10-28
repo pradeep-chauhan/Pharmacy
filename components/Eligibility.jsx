@@ -7,11 +7,11 @@ function Eligibility() {
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h2 className="mb-5 mt-5 text-center text-white heading"> Eligibility Criteria</h2>
+              <h2 className="mb-5 mt-5 text-center text-white heading" itemProp='title'> Eligibility Criteria</h2>
             </div>
             <div className='row'>
               <div className='col-xl-12 col-lg-12 col-md-12 col-sm-12 col-sm-12 mb-5'>
-                <p className='sub-heading mb-1 text-white'>
+                <p className='sub-heading mb-1 text-white' itemProp='description'>
                   Minimum qualification for admission to Diploma in Pharmacy Part-I course is to pass in any of the following examinations with Physics, Chemistry and Biology or Mathematics.
                 </p>
                 <div className="my-3" >

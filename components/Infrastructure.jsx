@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon from 'react'
+import { ShieldFillCheck, Clipboard2CheckFill, People, Laptop, Dribbble, Gear } from 'react-bootstrap-icons'
 import Image from 'next/future/image';
 import Image1 from '../images/flask (5).png'
 import Image2 from '../images/microscope (2).png'
@@ -10,9 +12,7 @@ import Image7 from '../images/board-meeting.png'
 import Image8 from '../images/classroom.png'
 import Image9 from '../images/gear.png'
 import Image10 from '../images/board-meeting.png'
-
 const offers = [
- 
   {
     "id": "1",
     "icon": Image1,
@@ -83,19 +83,16 @@ const offers = [
     "heading": "Boy's Common Room",
     "paragraph": "Designed to give male students a place to relax, study in free time available"
   }
-  
 ]
-
 function Infrastructure() {
   return (
     <>
-      <section className="infrastructure section-margin section-background-color">
+      <section className="infrastructure section1 section-background-color">
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
-
-              <h2 className="mb-5 text-center heading text-white"> Infrastructure</h2>
-              <p className="paragraph mb-4 text-white">Gurukul College of Pharmacy is well equipped Laboratories with all facilities. The following labs and other facilities are available for students to carry out their study.
+              <h2 itemProp='title' className="mb-5 text-center heading text-white"> Infrastructure</h2>
+              <p itemProp='description' className="paragraph mb-4 text-white">Gurukul College of Pharmacy is well equipped Laboratories with all facilities. The following labs and other facilities are available for students to carry out their study.
               </p>
             </div>
           </div>
@@ -104,7 +101,7 @@ function Infrastructure() {
               offers.map((value) => (
                 <div className="col-lg-6">
                   <div className="services-2 d-flex">
-                    <div className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage  ">
+                    <div itemProp='image' className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage  ">
                       <Image src={value.icon} className="infrastructureimage " />
                     </div>
                     <div className="text pl-3">
@@ -121,5 +118,4 @@ function Infrastructure() {
     </>
   )
 }
-
 export default Infrastructure

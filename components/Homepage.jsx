@@ -41,12 +41,14 @@ function Homepage() {
                 </div>
               </Nav>
               <div className="container  ">
+
                 <div className="row mx-2 margin">
                   <div className="d-none d-sm-block d-md-block">
                     <Image src={Svg1} className='homepage-svg1' />
                     <Image src={Svg3} className='homepage-svg3' />
                   </div>
                   <h1 className=" mt-5 heading-home">Best Pharma</h1>
+
                   <h1 className=" mt-2 ms-1  heading-home-1">Education</h1>
                   <h1 className="mt-4  heading-home">Solution</h1>
                 </div>
@@ -83,6 +85,7 @@ function Homepage() {
                     </div>
                     {/* <div className="mt-3">
                       <button type="button" className="btn button btn-light p-3  ">Play Video </button>
+
                     </div> */}
                   </div>
                 </div>

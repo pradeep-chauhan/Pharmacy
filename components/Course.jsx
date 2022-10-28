@@ -16,7 +16,7 @@ function Course() {
                   <Image className="img-fluid " src={Image1} />
                 </div>
                 <div className='col-xl-7 col-lg-7 col-md-12 col-sm-12 col-sm-12'>
-                  <p className='about-us-paragraph'>
+                  <p itemProp='description' className='about-us-paragraph'>
                     Diploma in Pharmacy (D.Pharma) is a two-year academic programme streamlined to endow in-depth knowledge of science and technique behind the formulation of pharmacy practice and medicines management. The programme fundamentally provides an overview of the conjecture principles and practices implicated in the science of pharmacy including core subjects like Pharmaceutical Chemistry Pharmacognosy Pharmacology and Pharmaceutics.
                   </p>
                   <p className='about-us-paragraph'>The curriculum and syllabus for the programme are as per the Pharmacy Council of India (PCI) the statutory body governing pharmacy profession in India. In this programme students will gain insights into the chemical and physical properties chemical structure and uses of pharmaceutical formulae. </p> <p className='about-us-paragraph' >The programme encompasses knowledge about the natural medicines which are obtained from plants animals marine and biological sources</p>
