@@ -40,7 +40,7 @@ function WhyUs() {
                       <Image key={value.id} src={value.image} className="image-whyus" />
                       <div className="row">
                         <div className="col-md-12 col-lg-4 col-xl-4">
-                          <h2 className="mt-3 whyus-heading">{value.title}</h2>
+                          <h2 className="mt-3 whyus">{value.title}</h2>
                         </div>
                         <div className="col-md-12 col-lg-8 col-xl-8">
                           <p className="mt-3 text-align-start "><strong>{value.heading}</strong></p>

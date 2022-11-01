@@ -4,26 +4,8 @@
   width: 100px;
   height: 80px;
 }
-
 .services-2 {
   margin-bottom: 30px;
-}
-.pl-3, .px-3 {
-  padding-left: 1rem!important;
-}
-.offericon{
-    background: #f75023;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-}
-.offer-icons{
-  align-items: center;
-  font-size: 30px;
-  color: white;
-  background-color: #f75023;
-  border-radius: 50%;
 }
 .infrastructureimage{
   font-size: 48px !important;

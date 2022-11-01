@@ -2,7 +2,6 @@
   font-family: nexa-bold;
   src: url(../Font/Nexa\ Bold.otf);
 }
-
 @font-face {
   font-family: nexa-regular;
   src: url(../Font/Nexa-Light.otf);
@@ -15,7 +14,6 @@
   font-family: nexa;
   src: url(../Font/Nexa-Light.otf);
 }
-
 @font-face {
   font-family: LondrinaShadow;
   src: url(../Font/LondrinaShadow-Regular.ttf);
@@ -37,7 +35,6 @@ body{
   font-variant: normal;
   font-family: nexa-regular;
 }
-
 .paragraph {
   font-family: nexa-regular;
   font-weight: 400;
@@ -47,7 +44,6 @@ body{
   font-size: 20px;
   color: #363636;
 }
-
 .subheading {
   font-family: nexa-regular;
   font-weight: 500;
@@ -65,26 +61,19 @@ body{
   color: gray;
   text-align: justify;
 }
-
- body {
+body {
   background-color: #FEF4EE !important;
 } 
-
-.section1 {
-  margin-bottom: 7%;
-  /* margin-top: 7%; */
-}
 .section-margin{
   margin-bottom: 7%;
+   /* margin-top: 7%; */
 }
 .hr-border {
   border: 1px solid #D3D3D3;
 }
-
 .section-background-color {
   background-color: #4C436B;
 }
-
 .nav-bold{
   font-weight: 500 !important;
 }

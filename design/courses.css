@@ -12,7 +12,6 @@
 .card-para{
   font-style:normal;
   font-variant:normal;
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
   color: gray;
 }
@@ -26,7 +25,6 @@
   color: white !important;
 }
 .card-text-link{
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
   line-break: auto;
   letter-spacing:normal;
@@ -37,23 +35,19 @@
   text-decoration: underline;
 }
 .course-paragraph{
-   /* font-family: 'PT Sans', sans-serif; */
    font-family: nexa-regular;
    font-weight:400;
    font-style:normal;
    font-variant:normal;
    vertical-align:baseline;
    font-size: 17.2px;
-   /* color: gray; */
    color: #363636;
    text-align: justify;
 }
 .sub-heading{
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: nexa-regular;
   font-weight:500;
   font-style:normal;
   font-variant:normal;
   font-size: 21.7px;
 }
-

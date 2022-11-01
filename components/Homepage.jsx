@@ -48,8 +48,7 @@ function Homepage() {
                     <Image src={Svg3} className='homepage-svg3' />
                   </div>
                   <h1 className=" mt-5 heading-home">Best Pharma</h1>
-
-                  <h1 className=" mt-2 ms-1  heading-home-1">Education</h1>
+                  <h1 className=" mt-2 ms-1  heading-home-Education">Education</h1>
                   <h1 className="mt-4  heading-home">Solution</h1>
                 </div>
                 <div className="mt-3 mx-2">

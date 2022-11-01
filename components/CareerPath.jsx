@@ -7,7 +7,6 @@ import Image4 from '../images/pharmacist (4).png'
 import Image5 from '../images/pharmacist (5).png'
 
 const offers = [
-
   {
     "id": "1",
     "icon": Image2,
@@ -67,14 +66,10 @@ function CareerPath() {
                 }
               </div>
             </div>
-
           </div>
         </div>
       </section>
     </>
   )
 }
-
 export default CareerPath
-
-

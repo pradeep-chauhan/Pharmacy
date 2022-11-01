@@ -23,7 +23,6 @@ const committees = [
     "paragraph": "The placement cell collaborates with several pharma industries and hospitals to provide opportunities to the students of pharmacy for employment and has facilitated promising candidates in the field of health care and pharmaceutical industry."
   },
 ]
-
 function Committees() {
   return (
     <>
@@ -53,5 +52,4 @@ function Committees() {
     </>
   )
 }
-
 export default Committees
