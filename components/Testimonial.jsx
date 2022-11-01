@@ -2,30 +2,6 @@ import React from 'react'
 import Image from 'next/future/image'
 import Image1 from '../images/people.jpeg'
 
-const testimonies = [
-  {
-    "id": "1",
-    "image": Image1,
-    "name": "David Jones",
-    "branch": "BSc Applied Medical Sciences",
-    "paragraph": "Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life."
-  },
-  {
-    "id": "2",
-    "image": Image1,
-    "name": "David Jones",
-    "branch": "BSc Applied Medical Sciences",
-    "paragraph": "Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life."
-  },
-  {
-    "id": "3",
-    "image": Image1,
-    "name": "David Jones",
-    "branch": "BSc Applied Medical Sciences",
-    "paragraph": "Every aspect of the course exceeded my expectations. Our professors and guest specialists delivered engaging content-rich lectures, covering body systems in health and disease  then the role of nutrition in modulating health across life."
-  }
-]
-
 function Testimonial() {
   return (
     <>
@@ -77,7 +53,6 @@ function Testimonial() {
             </div>
           </div>
         </div>
-
       </section>
     </>
   )

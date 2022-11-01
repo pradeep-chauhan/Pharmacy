@@ -36,7 +36,6 @@ function WhyUs() {
                   <div className="card card-whyus">
                     <div className="card-body text-center">
                     <h5 className='text-start fs-1 footer-para'>{value.id}</h5>
-
                       <Image key={value.id} src={value.image} className="image-whyus" />
                       <div className="row">
                         <div className="col-md-12 col-lg-4 col-xl-4">
