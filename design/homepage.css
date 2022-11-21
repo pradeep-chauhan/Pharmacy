@@ -2,37 +2,18 @@ a {
   text-decoration: none;
   color: black;
 }
+a:hover{
+  color: white;
+}
 .nav-link {
   text-decoration: none;
-  color: black !important;
+  color: white !important;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
   background-color: #fd5f00;
 }
-/*homepage*/
-.heading-home {
-  font-family: nexa-regular;
-  line-height: 49.6px;
-  line-break: auto;
-  vertical-align: baseline;
-  letter-spacing: normal;
-  word-spacing: 10px;
-  font-weight: 800;
-  font-size: 60px;
-  font-variant: normal;
-}
-.heading-home-Education {
-  font-family: LondrinaShadow;
-  line-height: 45.6px;
-  line-break: auto;
-  vertical-align: baseline;
-  letter-spacing: 6px;
-  word-spacing: 10px;
-  font-size: 85px;
-  font-feature-settings: normal;
-  font-variant: normal;
-}
+
 .button-homepage {
   background-color: #4C436B !important;
   color: white;
@@ -101,4 +82,72 @@ a {
 }
 .home{
   margin-top: 0% !important;
+}
+
+.homepage-image-1{
+  background: url('../images/homepage/homepage1.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  filter: blur(1.3px);
+}
+.homepage-image-2{
+  background: url('../images/homepage/homepage4.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  filter: blur(1.3px);
+}
+.homepage-image-3{
+  background: url('../images/homepage/homepage3.JPG');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  filter: blur(1.3px);
+}
+.card-move {
+  position: absolute;
+  left: 12%;
+  top: 8rem;
+}
+.card-box{
+  padding: 2.5%;
+  background-color: white;
+  width: 29rem;
+  border-radius: 23px;
+}
+.home-paragraph{
+  font-size: 16px;
+  font-family: nexa-regular;
+}
+.home-heading{
+  font-size: 35px;
+  color: black !important;
+  font-family: nexa-regular;
+  z-index: 5;
+}
+.home{
+  margin-top: 3.7%;
+}
+.navbar{
+  font-family: nexa-regular;
+  background-color: #4C436B !important;
+  font-weight: 700;
+}
+
+@media (max-width:550px){
+  .home-paragraph{
+    display: none;
+  }
+  .card-box{
+    width: fit-content;
+  }
+  .card-move{
+    position: absolute;
+    left: 2%;
+    right: 2%
+  }
 }

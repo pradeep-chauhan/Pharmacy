@@ -5,10 +5,9 @@ function FooterWebsite() {
   const year = today.getFullYear();
   return (
     <div>
-     
       <div itemscope itemtype="https://schema.org/Footerwebsite" className="container ">
           <div className="row">
-            <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-3 mb-2 ">
+            <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-0 mb-2 ">
              <p itemprop="datePublished"> © {year} Gurukul College of Pharmacy. All Rights Reserved</p>
             </div>
 

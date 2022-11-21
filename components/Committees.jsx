@@ -30,7 +30,7 @@ function Committees() {
         <div className='container'>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-              <h2 itemProp='name' className="mb-5 text-center heading"> Committees</h2>
+              <h2 itemProp='name' className="mb-5 mt-5 text-center heading"> Committees</h2>
             </div>
           </div>
           <div className='row'>
