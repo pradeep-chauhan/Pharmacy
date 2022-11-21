@@ -26,7 +26,7 @@ const committees = [
 function Committees() {
   return (
     <>
-      <section className='section-margin' id='committees'>
+      <section itemscope itemtype="https://schema.org/Committees" className='section-margin' id='committees'>
         <div className='container'>
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">

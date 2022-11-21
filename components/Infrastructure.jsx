@@ -85,7 +85,7 @@ const offers = [
 function Infrastructure() {
   return (
     <>
-      <section className="infrastructure section1 section-background-color">
+      <section itemscope itemtype="https://schema.org/Infrastructure" className="infrastructure section1 section-background-color">
         <div className="container">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-5">
@@ -103,8 +103,8 @@ function Infrastructure() {
                       <Image src={value.icon} className="infrastructureimage " />
                     </div>
                     <div className="text pl-3">
-                      <h3 className="subheading-infrastructure text-white">{value.heading}</h3>
-                      <p className="subparagraph text-white">{value.paragraph}</p>
+                      <h3 itemProp='heading' className="subheading-infrastructure text-white">{value.heading}</h3>
+                      <p itemProp='desciption' className="subparagraph text-white">{value.paragraph}</p>
                     </div>
                   </div>
                 </div>

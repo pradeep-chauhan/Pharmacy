@@ -6,14 +6,14 @@ function FooterWebsite() {
   return (
     <div>
      
-      <div className="container ">
+      <div itemscope itemtype="https://schema.org/Footerwebsite" className="container ">
           <div className="row">
             <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-3 mb-2 ">
-             <p> © {year} Gurukul College of Pharmacy. All Rights Reserved</p>
+             <p itemprop="datePublished"> © {year} Gurukul College of Pharmacy. All Rights Reserved</p>
             </div>
 
             <div className="col-12 col-md-4 col-sm-12 col-xs-12 mt-3 mb-2  ">
-            <p>Design and Developed By <strong> <a href="https://alvrio.io/">Alvrio Labs</a></strong></p>
+            <p itemProp='designer'>Design and Developed By <strong> <a href="https://alvrio.io/">Alvrio Labs</a></strong></p>
             </div>
           </div>
         </div>

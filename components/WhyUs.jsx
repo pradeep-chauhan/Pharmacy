@@ -27,7 +27,7 @@ const aboutUsData = [
 function WhyUs() {
   return (
     <>
-      <section className="whyus section-margin">
+      <section itemscope itemtype="https://schema.org/WhyUs" className="whyus section-margin">
         <div className="container">
           <div className="row course-gap">
             {
@@ -35,14 +35,14 @@ function WhyUs() {
                 <div className="col-md-4 col-lg-4 col-xl-4 col-xs-12 col-sm-12 mb-4 mt-4">
                   <div className="card card-whyus">
                     <div className="card-body text-center">
-                    <h5 className='text-start fs-1 footer-para'>{value.id}</h5>
-                      <Image key={value.id} src={value.image} className="image-whyus" />
+                    <h5 itemProp='decription' className='text-start fs-1 footer-para'>{value.id}</h5>
+                      <Image itemProp='image' key={value.id} src={value.image} className="image-whyus" />
                       <div className="row">
                         <div className="col-md-12 col-lg-4 col-xl-4">
-                          <h2 className="mt-3 whyus">{value.title}</h2>
+                          <h2 itemProp='title' className="mt-3 whyus">{value.title}</h2>
                         </div>
                         <div className="col-md-12 col-lg-8 col-xl-8">
-                          <p className="mt-3 text-align-start "><strong>{value.heading}</strong></p>
+                          <p itemProp='heading' className="mt-3 text-align-start "><strong>{value.heading}</strong></p>
                         </div>
                       </div>
                     </div>

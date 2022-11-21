@@ -10,13 +10,13 @@ import Svg3 from '../images/star2.png'
 function Homepage() {
   return (
     <div>
-      <section className="home section-margin" id='home'>
+      <section itemscope itemtype="https://schema.org/Homepage" className="home section-margin" id='home'>
         <div className="container-fluid">
           <div className="row">
             <div className="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
               <Nav className="navbar navbar-expand-lg navbar-light ">
                 <div className="container">
-                  <a className="navbar-brand mx-3 " href="#home"><strong className='text-purple'>Gurukul Pharmacy</strong></a>
+                  <a itemProp='title' className="navbar-brand mx-3 " href="#home"><strong className='text-purple'>Gurukul Pharmacy</strong></a>
                   <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,17 +24,17 @@ function Homepage() {
                   <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto mx-auto">
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-1 active" aria-current="page" href="#home">Home</a>
+                        <a itemProp='home' className="nav-link nav-bold mx-1 active" aria-current="page" href="#home">Home</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-1" href="#aboutUs">About Us</a>
+                        <a itemProp='about' className="nav-link nav-bold mx-1" href="#aboutUs">About Us</a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-1" href="#committees">Committees
+                        <a itemProp='committees' className="nav-link nav-bold mx-1" href="#committees">Committees
                         </a>
                       </li>
                       <li className="nav-item">
-                        <a className="nav-link nav-bold mx-1" href="#contactus">Contact Us</a>
+                        <a itemProp='contact' className="nav-link nav-bold mx-1" href="#contactus">Contact Us</a>
                       </li>
                     </ul>
                   </div>

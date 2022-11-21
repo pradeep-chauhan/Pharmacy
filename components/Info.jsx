@@ -6,7 +6,7 @@ import { People, Award, Book, JournalMedical } from 'react-bootstrap-icons'
 function Info() {
   return (
     <>
-      <section className="info section-margin  ">
+      <section itemscope itemtype="https://schema.org/Info" className="info section-margin  ">
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-xs-12 col-md-5 col-lg-5 col-xl-5 ">

@@ -35,7 +35,7 @@ const offers = [
 function CareerPath() {
   return (
     <>
-      <section className='section-margin section-background-color'>
+      <section itemscope itemtype="https://schema.org/CareerPath" className='section-margin section-background-color'>
         <div className="container">
           <div className='row text-center mb-5'>
             <div className="row text-center mt-5">
@@ -58,7 +58,7 @@ function CareerPath() {
                           <Image src={value.icon} className="img-fluid" />
                         </div>
                         <div className="text pl-3 mt-4">
-                          <h3 className="subheading text-white">{value.heading}</h3>
+                          <h3 itemProp='subheading' className="subheading text-white">{value.heading}</h3>
                         </div>
                       </div>
                     </div>

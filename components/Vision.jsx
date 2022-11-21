@@ -5,7 +5,7 @@ import Image1 from '../images/7001-removebg-preview.png'
 function Vision() {
   return (
     <div>
-      <section className='section-margin vision'>
+      <section itemscope itemtype="https://schema.org/Vision" className='section-margin vision'>
         <div className='container'>
           <div className='row'>
             <div className='col'>

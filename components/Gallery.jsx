@@ -24,20 +24,20 @@ export default function Gallery() {
 
   return (
     <>
-      <section className="gallery section-margin" id='gallery'>
+      <section itemscope itemtype="https://schema.org/Gallary" className="gallery section-margin" id='gallery'>
         <div>
           <div className="container">
             <h2 className="text-center mb-5 text-center heading">
               Gallery
             </h2>
           </div>
-          <div className="container">
-            <div className="row text-center mx-1 course-gap">
+          <div className="container ">
+            <div itemProp='image' className="row text-center mx-1 course-gap">
               {
                 images.map(({ picture }) => (
                   <div className="col-sm-6 col-xs-6 col-lg-3 col-xl-3 col-md-6 mt-3">
                     <Image key={picture} src={picture} className="gallery-images card-img-top img-fluid"
-                    loading="lazy"
+                    loading="eager"
                     />
                   </div>
                 ))
