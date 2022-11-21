@@ -4,7 +4,7 @@ import Homepage from '../components/Homepage'
 import Info from '../components/Info'
 // import Offer from '../components/Offer'
 // import Category from '../components/Courses'
-// import Gallery from '../components/Gallery'
+import Gallery from '../components/Gallery'
 // import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
@@ -41,6 +41,7 @@ export default function Home() {
       <Eligibility />
       {/* <Faculties /> */}
       <Vision></Vision>
+      <Gallery />
       <Committees />
       <CareerPath />
       {/* <Gallery />
