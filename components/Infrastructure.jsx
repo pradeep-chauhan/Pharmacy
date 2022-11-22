@@ -10,6 +10,7 @@ import Image7 from '../images/board-meeting.png'
 import Image8 from '../images/classroom.png'
 import Image9 from '../images/gear.png'
 import Image10 from '../images/board-meeting.png'
+
 const offers = [
   {
     "id": "1",
@@ -74,13 +75,7 @@ const offers = [
     "heading": "Machine Room",
     "paragraph": "Well Equipped Industrial Machine room to give a first-hand experience of the Industry"
   },
-  {
-    "id": "10",
-    "icon": Image10,
-    "iconClass": "offer-icons",
-    "heading": "Boy's Common Room",
-    "paragraph": "Designed to give male students a place to relax, study in free time available"
-  }
+
 ]
 function Infrastructure() {
   return (
@@ -97,7 +92,7 @@ function Infrastructure() {
           <div className="row mt-5">
             {
               offers.map((value) => (
-                <div className="col-lg-6">
+                <div className="col-lg-4">
                   <div className="services-2 d-flex">
                     <div itemProp='image' className="icon mt-2 d-flex justify-content-center align-items-center  infrastructureimage  ">
                       <Image src={value.icon} className="infrastructureimage " />
