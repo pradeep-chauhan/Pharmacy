@@ -44,11 +44,11 @@ export default function Home() {
       <Committees />
       <Vision />
       <Eligibility />
+      <CareerPath />
       {/* <Faculties /> */}
       {/* <Gallery />
       <Testimonial /> */}
       <Gallery />
-      <CareerPath />
       <ContactUs />
       <FooterWebsite />
     </div>

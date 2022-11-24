@@ -6,12 +6,12 @@ import Image3 from '../images/contactus/email.png'
 
 const ContactUs = () => {
   return (
-    <div className='section-margin section-background-color'>
+    <div className='section-background-color '>
       <div className="container" id='contact'>
         <div className="row ">
           <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 mt-5 mb-5">
-            <h3 className='mb-3 text-heading text-white' itemProp='name'>Contact Us</h3>
-            <p className='mb-4 fs-4 text-white' itemProp='description'>We Will love to here from you</p>
+            <h3 className='mb-3 text-heading text-white fs-3' itemProp='name'>Contact Us</h3>
+            <p className='mb-4 fs-5 text-white' itemProp='description'>We Will love to here from you</p>
             <div className='row mt-3 mx-1'>
               <div className='col-md-1 col-xl-1 col-lg-1 col-sm-1'>
                 <Image src={Image1} alt="Gurukul location" itemProp='image'/>

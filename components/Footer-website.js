@@ -7,11 +7,11 @@ function FooterWebsite() {
     <div>
       <div itemscope itemtype="https://schema.org/Footerwebsite" className="container ">
           <div className="row">
-            <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-0 mb-2 ">
+            <div className="col-12 col-md-8 col-sm-12 col-xs-12 mt-2  ">
              <p itemprop="datePublished"> © {year} Gurukul College of Pharmacy. All Rights Reserved</p>
             </div>
 
-            <div className="col-12 col-md-4 col-sm-12 col-xs-12 mt-3 mb-2  ">
+            <div className="col-12 col-md-4 col-sm-12 col-xs-12 mt-2 ">
             <p itemProp='designer'>Design and Developed By <strong> <a href="https://alvrio.io/">Alvrio Labs</a></strong></p>
             </div>
           </div>
