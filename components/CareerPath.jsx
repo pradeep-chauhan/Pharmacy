@@ -35,7 +35,7 @@ const offers = [
 function CareerPath() {
   return (
     <>
-      <section itemscope itemtype="https://schema.org/CareerPath" className=' section-background-color section-margin'>
+      <section itemscope itemtype="https://schema.org/CareerPath" className=' section-background-color'>
         <div className="container">
           <div className='row text-center mb-5'>
             <div className="row text-center mt-5">

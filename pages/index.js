@@ -43,8 +43,8 @@ export default function Home() {
       <Infrastructure />
       <Committees />
       <Vision />
-      <Eligibility />
       <CareerPath />
+      <Eligibility />
       {/* <Faculties /> */}
       {/* <Gallery />
       <Testimonial /> */}
