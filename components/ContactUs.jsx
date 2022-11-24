@@ -39,8 +39,8 @@ const ContactUs = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 mt-5 mb-5">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14529.2940673613!2d73.925506!3d24.4395586!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967c0c89381f373%3A0x3d61c5ac06b2bf9a!2sThe%20Gurukul%20college%20%26%20School!5e0!3m2!1sen!2sin!4v1666853344782!5m2!1sen!2sin" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div className="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-xs-12 mt-2 mb-2">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d58117.176085058025!2d73.925506!3d24.439559!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3d61c5ac06b2bf9a!2sThe%20Gurukul%20college%20%26%20School!5e0!3m2!1sen!2sin!4v1669280320704!5m2!1sen!2sin" width="100%" height="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
         </div>
       </div>

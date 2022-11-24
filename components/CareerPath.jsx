@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/future/image'
-import Image1 from '../images/In progress-pana.svg'
+import Image1 from '../images/Going up-rafiki (2).svg'
 import Image2 from '../images/pharmacist (1).png'
 import Image3 from '../images/pharmacist (3).png'
 import Image4 from '../images/pharmacist (4).png'
@@ -45,18 +45,16 @@ function CareerPath() {
             </div>
           </div>
           <div className='row'>
-            <div itemProp='image' className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12'>
-              <Image className="img-fluid" src={Image1} />
-            </div>
-            {/* <div itemProp='image' className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12 '>
+      
+         <div itemProp='image' className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 '>
               <Image className="img-fluid career-img" src={Image1} />
-            </div> */}
-            <div className='col-lg-5 col-xl-5 col-md-6 col-sm-12 col-xs-12 mb-5'>
+            </div> 
+            <div className='col-lg-7 col-xl-7 col-md-6 col-sm-12 col-xs-12 mb-5'>
               <div className='row'>
                 {
                   offers.map((value) => (
-                    <div className="col-lg-12 col-md-12 col-sm-6 col-xs-6">
-                      <div className="career-path d-flex">
+                    <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 mt-5 ">
+                      <div className="career-path d-flex border flex items-center justify-center p-2">
                         <div itemProp='image' className="icon mt-2 d-flex justify-content-center align-items-center ">
                           <Image src={value.icon} className="img-fluid" />
                         </div>

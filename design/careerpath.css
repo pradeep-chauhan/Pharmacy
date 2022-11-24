@@ -1,11 +1,12 @@
 .career-path  .icon {
   line-height: 1;
   position: relative;
-  width: 60px;
+  width: 50px;
   height: 60px;
 }
 .career-path  {
   margin-bottom: 30px;
+  border-radius: 13px;
 }
 .pl-3, .px-3 {
   padding-left: 1rem!important;

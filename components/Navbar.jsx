@@ -29,14 +29,14 @@ export default function Navigation() {
               <a class="nav-link text-white" href="#infrastructure">INFRASTRUCTURE</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#gallery">GALLERY</a>
+              <a class="nav-link text-white" href="#committees">COMMITTEES</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#committees">COMMITTEES
+              <a className="nav-link text-white" href="#gallery">GALLERY
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">CONTACT</a>
+              <a class="nav-link text-white" href="#contact">CONTACT US</a>
             </li>
           </ul>
 
