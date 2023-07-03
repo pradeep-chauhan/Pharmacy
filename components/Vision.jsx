@@ -1,6 +1,4 @@
 import React from 'react'
-import Image from 'next/future/image';
-import Image1 from '../images/7001-removebg-preview.png'
 
 function Vision() {
   return (
