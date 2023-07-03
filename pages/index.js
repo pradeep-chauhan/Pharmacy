@@ -1,22 +1,17 @@
 import Head from 'next/head'
 import Homepage from '../components/Homepage'
-// import WhyUs from '../components/WhyUs'
 import Info from '../components/Info'
-// import Offer from '../components/Offer'
-// import Category from '../components/Courses'
 import Gallery from '../components/Gallery'
-// import Testimonial from '../components/Testimonial'
 import ContactUs from '../components/ContactUs'
 import Footer from '../components/Footer'
 import CareerPath from '../components/CareerPath'
 import Infrastructure from '../components/Infrastructure'
-// import Faculties from '../components/Faculties'
+import Faculties from '../components/Faculties'
 import Vision from '../components/Vision'
 import Committees from '../components/Committees'
 import Course from '../components/Course'
 import Eligibility from '../components/Eligibility'
 import FooterWebsite from '../components/Footer-website'
-import { Navbar } from 'react-bootstrap'
 import Navigation from '../components/Navbar'
 export default function Home() {
   return (
@@ -37,7 +32,6 @@ export default function Home() {
       </Head>
       <Navigation />
       <Homepage />
-      {/* <WhyUs /> */}
       <Course />
       <Info />
       <Infrastructure />
@@ -45,9 +39,7 @@ export default function Home() {
       <Vision />
       <CareerPath />
       <Eligibility />
-      {/* <Faculties /> */}
-      {/* <Gallery />
-      <Testimonial /> */}
+      <Faculties />
       <Gallery />
       <ContactUs />
       <FooterWebsite />
