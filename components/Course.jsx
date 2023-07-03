@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/future/image';
-import Image1 from '../images/image__2_-removebg-preview.png'
+
 function Course() {
   return (
     <>

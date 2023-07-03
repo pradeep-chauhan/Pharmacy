@@ -9,7 +9,6 @@ import Image6 from '../images/book (1).png'
 import Image7 from '../images/board-meeting.png'
 import Image8 from '../images/classroom.png'
 import Image9 from '../images/gear.png'
-import Image10 from '../images/board-meeting.png'
 
 const offers = [
   {
