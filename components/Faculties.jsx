@@ -32,7 +32,7 @@ const facilitate = [
   },
   {
     "id": "7",
-    "heading": "Hemant kumar Jain",
+    "heading": "Hemant k. Jain",
     "paragraph": "Lecturer"
   },
   {
@@ -57,7 +57,7 @@ const facilitate = [
   },
   {
     "id": "12",
-    "heading": "Shravan Kumar Choudhary",
+    "heading": "Shravan K. Choudhary",
     "paragraph": "Lab Assistant"
   },
   {
