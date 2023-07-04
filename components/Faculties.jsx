@@ -75,8 +75,6 @@ const facilitate = [
     "heading": "Pushpa Bai",
     "paragraph": "Lab Att./Helper"
   },
-
-
 ]
 function Faculties() {
   return (

@@ -43,7 +43,6 @@ const Homepage = () => {
       <div class=" move-text card-box card-move" >
         <h1 className=" text-center heading-home home-heading">Best Pharma Education</h1>
         <h1 className="text-center heading-home home-heading">Solution</h1>
-
         <div className='text-center home-paragraph'>
         <p>Gurukul College of Pharmacy managed by Nahar Singh mata Jan vikas sanasthan. The college is endowed with excellent infrastructure,state of the art laboratories and a team of dedicated faculty members with affluent research interests.</p>
       </div>
