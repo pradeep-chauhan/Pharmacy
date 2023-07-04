@@ -85,7 +85,7 @@ a:hover{
 }
 
 .homepage-image-1{
-  background: url('../images/homepage/homepage1.JPG');
+  background: url('../images/homepage/homepage1-min.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -93,7 +93,7 @@ a:hover{
   filter: blur(1.3px);
 }
 .homepage-image-2{
-  background: url('../images/homepage/homepage4.JPG');
+  background: url('../images/homepage/homepage4-min.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ a:hover{
   filter: blur(1.3px);
 }
 .homepage-image-3{
-  background: url('../images/homepage/homepage3.JPG');
+  background: url('../images/homepage/homepage3-min.JPG');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
