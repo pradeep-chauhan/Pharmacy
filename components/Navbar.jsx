@@ -20,26 +20,25 @@ export default function Navigation() {
         <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-nav-drop">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#aboutUs">ABOUT US</a>
+              <a class="nav-link text-white" href="#aboutUs">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#infrastructure">INFRASTRUCTURE</a>
+              <a class="nav-link text-white" href="#infrastructure">Infrastructure</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#committees">COMMITTEES</a>
+              <a class="nav-link text-white" href="#committees">Committees</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-white" href="#gallery">GALLERY
+              <a className="nav-link text-white" href="#gallery">Gallery
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">CONTACT US</a>
+              <a class="nav-link text-white" href="#contact">Contact Us</a>
             </li>
           </ul>
-
         </div>
       </div>
     </nav>
