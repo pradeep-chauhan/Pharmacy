@@ -45,3 +45,8 @@
   }
 }
 
+@media (max-width:767px) {
+  .footer-paragraph{
+    text-align: start !important;
+  }
+}
