@@ -26,11 +26,9 @@ const images = [
   { picture: Image10 },
   { picture: Image11 },
   { picture: Image12 },
-
 ]
 
 export default function Gallery() {
-
   return (
     <>
       <section itemscope itemtype="https://schema.org/Gallary" className="gallery section-margin" id='gallery'>
