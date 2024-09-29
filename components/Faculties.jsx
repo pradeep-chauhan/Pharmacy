@@ -1,79 +1,65 @@
 import React from 'react'
+
 const facilitate = [
   {
-    "id": "1",
-    "heading": "Rituraj Gaur",
+    "heading": "Aseem Shrivastava",
     "paragraph": "Principal"
   },
   {
-    "id": "2",
-    "heading": "Vikram Choudhary    ",
+    "heading": "Nikhil Kumar",
     "paragraph": "Assistant Professor"
   },
   {
-    "id": "3",
-    "heading": "Shailesh Sen ",
+    "heading": "Nirmal Solanki",
     "paragraph": "Assistant Professor"
   },
   {
-    "id": "4",
-    "heading": "Rahul Pasola",
+    "heading": "Mangal Hari Khandelwal",
+    "paragraph": "Assistant Professor"
+  },
+  {
+    "heading": "Nikhil Kumar dave",
+    "paragraph": "Assistant Professor"
+  },
+  {
+    "heading": "Hemant kumar Jain",
     "paragraph": "Lecturer"
   },
   {
-    "id": "5",
+    "heading": "Dharam Chand Kalal",
+    "paragraph": "Lecturer"
+  },
+  {
     "heading": "Rohit Yogi",
     "paragraph": "Lecturer"
   },
   {
-    "id": "6",
-    "heading": "Prashant Mogra",
-    "paragraph": "Lecturer"
+    "heading": "Lalit Choudhary",
+    "paragraph": "Lab Assistant"
   },
   {
-    "id": "7",
-    "heading": "Hemant k. Jain",
-    "paragraph": "Lecturer"
+    "heading": "Pragya Patidar",
+    "paragraph": "Lab Assistant"
   },
   {
-    "id": "8",
     "heading": "Shanta Menaria",
     "paragraph": "Liabrarian"
   },
   {
-    "id": "9",
     "heading": "Itisha Patel",
     "paragraph": "Accountant"
   },
   {
-    "id": "10",
-    "heading": "Guddi Patel",
-    "paragraph": "Computer Assistant"
-  },
-  {
-    "id": "11",
-    "heading": "Hitesh Sirvi",
-    "paragraph": "Lab Assistant"
-  },
-  {
-    "id": "12",
-    "heading": "Shravan K. Choudhary",
-    "paragraph": "Lab Assistant"
-  },
-  {
-    "id": "13",
     "heading": "Udailal Gameti",
-    "paragraph": "Store Keepar"
+    "paragraph": "Peon"
   },
   {
-    "id": "14",
     "heading": "Suraj Bal",
-    "paragraph": "Lab Att./Helper"
+    "paragraph": "Peon"
   },
   {
-    "id": "15",
     "heading": "Pushpa Bai",
-    "paragraph": "Lab Att./Helper"
+    "paragraph": "Peon"
   },
 ]
 function Faculties() {

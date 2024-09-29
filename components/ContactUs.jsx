@@ -27,7 +27,7 @@ const ContactUs = () => {
                 <Image src={Image2} alt="Gurukul Phone" itemProp='image'/>
               </div>
               <div className='col-md-11 col-xl-11 col-lg-11 col-sm-11'>
-              <a href="tel:+918107973076" className="text-white" itemProp='number'>+91-8107973076</a>
+              <a href="tel:+917230066877" className="text-white" itemProp='number'>+91-7230066877</a>
               </div>
             </div>
             <div className='row mt-3 mx-1'>
